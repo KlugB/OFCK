@@ -22,6 +22,8 @@ Der Kern dieses Buches besteht aus Rahmenvereinbarungen, die Menschen mit sich s
 * Dieses Buch selbst in ein _co-kreatives_ Projekt verwandeln
 ****
 
+https://github.com/KlugB/OFCK/blob/master/OFCK.adoc[Offenes Framework für Co-Kreativität jetzt lesen]
+
 === Hintergrund
 
 Viele Menschen empfinden ihr Berufsleben als belastend, kraftraubend oder frustrierend. Manchmal gibt es Arbeitstage, an deren Ende sie sich energetisiert fühlen, in der Regel jedoch empfinden sie ihre Arbeit als energieraubend. Das Privatleben muss dann dazu genutzt werden, um den entladenen Akku wieder aufzuladen. Gelingt dies, spricht man gemeinhin von einer guten »Work-Life-Balance«, gelingt es nicht, beginnt eine Abwärtsspirale.
@@ -122,7 +124,7 @@ Derzeitiger Stand: experimentell; Bitte um Feedback; fast alles kann sich noch �
 * Core-Commitments
 * Einzelne Abschnitte bruchstückhaft gefüllt.
 
-Derzeit kann das Buch nur online über GitHub gelesen werden: *ToDo: Link*
+Derzeit kann das Buch nur online über GitHub gelesen werden: https://github.com/KlugB/OFCK/blob/master/OFCK.adoc
 
 Geplant: PDF, epub und, wer weiß, vielleicht ja auch irgendwann einmal eine Druckversion.
 
