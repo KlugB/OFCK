@@ -1,0 +1,133 @@
+= Offenes Framework für Co-Kreativität
+Björn Klug <https://github.com/KlugB>
+:lang: de
+:toc: left
+:toclevels: 4
+:toc-title: Inhalt
+:uri-what-is-asciidoc: http://asciidoctor.org/docs/what-is-asciidoc
+
+== Überblick
+
+*Co-Kreativität* ist eine besondere Form der Kooperation, die Energie _gibt_ statt verbraucht. Sie ist eine wesentliche Grundvoraussetzung für ein nachhaltig erfülltes und glückliches Arbeitsleben.
+
+Der Kern dieses Buches besteht aus Rahmenvereinbarungen, die Menschen mit sich selbst und miteinander treffen _müssen_, um den _Kontext_ eines co-kreativen Arbeitsumfeldes zu schaffen. Diese werden in die drei Bereiche *Integrität*, *bewusste Kommunikation* und *Kreativität* eingeordnet.
+
+.Ziele
+****
+* Am Ende eines Arbeitstages mehr Energie haben als zu Beginn
+* Ein glückliches und erfülltes Arbeitsleben
+* _Work-Life-Blending_, die Aufhebung der Trennung von Arbeit und Leben
+* Gleichgesinnte zusammenbringen
+* Interessierte bei der Umsetzung dieser Ziele unterstützen
+* Dieses Buch selbst in ein _co-kreatives_ Projekt verwandeln
+****
+
+=== Hintergrund
+
+Viele Menschen empfinden ihr Berufsleben als belastend, kraftraubend oder frustrierend. Manchmal gibt es Arbeitstage, an deren Ende sie sich energetisiert fühlen, in der Regel jedoch empfinden sie ihre Arbeit als energieraubend. Das Privatleben muss dann dazu genutzt werden, um den entladenen Akku wieder aufzuladen. Gelingt dies, spricht man gemeinhin von einer guten »Work-Life-Balance«, gelingt es nicht, beginnt eine Abwärtsspirale.
+
+Die Ursachen für die beschriebenen Energieverluste sind gewöhnlich in einem der beiden folgenden Bereiche zu suchen:
+
+. Die Arbeit selbst wird nicht als erfüllend empfunden.
+. Die Zusammenarbeit mit anderen ist problembehaftet.
+
+Es existiert eine Vielzahl von teils guten und potenziell wirksamen Methoden zur Selbstfindung und zu Verbesserung zwischenmenschlicher Kommunikation, die ihren Anwendern zu einer positiven Energiebilanz verhelfen sollen. Jedoch ist zu beobachten, dass deren Anwendung im beruflichen Alltag häufig nicht den gewünschten Erfolg liefert, was in der Regel daran liegt, dass die reine Anwendung von Techniken allein nicht ausreicht.
+
+Für die Verwirklichung beruflichen Glücks bedarf es dann zusätzlicher Voraussetzungen, die Gegenstand dieses Buches sind. Diese werden hier Core-Commitments genannt und sind wesentlich für das Funktionieren _aller_ Techniken, die dazu geeignet sind, das (Er-)Leben beständiger Arbeitsfreude zu ermöglichen.
+
+=== Work-Life-Blending
+
+Diese Core-Commitments fördern _Co-Kreativität_, eine Art der Zusammenarbeit, bei der ein Maximum der verfügbaren Energie in kreative Prozesse fließt und nur ein Minimum durch kommunikative Reibung verloren geht. Diese ebnet nun einem neuen Arbeitsparadigma den Weg. Während die Work-Life-__Balance__ sich mit dem Ausgleich zwischen einem Pflicht- und einem Kür-Leben zufriedengibt, steht das Work-Life-_Blending_ für das (Wieder-)Verschmelzen von Arbeit und Leben.
+
+Arbeit sollte Lust und nicht Last sein. Wir sollten mit der gleichen Freude zur Arbeit gehen, mit der wir auch zur Tanzstunde, zum Fußball oder ins Kino gehen. Damit dies möglich wird, dürfen wir keine Energie durch Integritätsverletzungen verschwenden, müssen wir uns für bewusste Kommunikation engagieren und uns dem kreativen Ausdruck unserer natürlichen Begabungen verpflichten.
+
+=== Das Framework für Co-Kreativität
+
+.Kernaussage
+****
+Wenn Arbeit keine Freude (mehr) bereitet, dann ist die Ursache *zuerst* in der Verletzung von Commitments zu *Integrität*, *bewusster Kommunikation* und *Kreativität* zu suchen. Sie bilden die _notwendige_ Basis für _jeden_ Lösungsansatz, der _nachhaltig_ wirken soll.
+****
+
+==== Die Core-Commitments
+
+Die Commitments in den Bereichen
+
+* Integrität
+* Bewusste Kommunikation
+* Kreativität
+
+bilden demnach den Kern dieses Frameworks. Sie sind nicht als neue Methode oder Technik zu verstehen, vielmehr handelt es sich um Prinzipien, die für alle Methoden gelten, die ein glückliches und erfülltes Arbeitsleben zum Ziel haben. Diese Prinzipen werden in den wenigsten Schulen explizit und vollständig gelehrt, meist sind sie nur als implizite Voraussetzung für eine erfolgreiche Anwendung der gelehrten Methoden enthalten.
+
+So lehrt zum Beispiel die Gewaltfreie Kommunikation sehr explizit die Prinzipien bewusster Kommunikation, wird rund um das Thema Integrität eher impliziter und hat nur wenig zum persönlichen kreativen Ausdruck beizutragen. Noch deutlicher wird es bei den derzeit beliebten _agilen_ Methoden, bei denen alle drei Bereiche nur implizit vorausgesetzt werden.
+
+Wenn die Anwendung derartiger Methoden zur Förderung von _Co-Kreativität_ auf Hindernisse stößt oder gar ganz scheitert, dann ist die Ursache zuerst in der Verletzung der Core-Commitments zu suchen. Das _Framework für Co-Kreativität_ kann solche Probleme lösen oder deren Entstehung von vornherein vorbeugen, wenn es bereits im Vorfeld einer Unternehmung angewandt wird.
+
+Dem ein oder anderen mögen die beschriebenen Prinzipien trivial erscheinen, doch sie werden leicht unterschätzt oder missverstanden. Daher widmet sich ein großer Teil dieses Buches mit der Beschreibung dieser _gemeinsamen Essenz aller Methoden_ aus möglichst vielen Blickwinkeln.
+
+
+==== Die zweite Ebene des Frameworks
+
+Die zweite Ebene des Frameworks soll nach und nach mit »optionalen Commitments« gefüllt werden, einzelne Bausteine, deren Nutzen von der Art der jeweiligen Unternehmung abhängt, zum Beispiel:
+
+* Verpflichtung eines Unternehmens zur Nachhaltigkeit
+* Gemeinnützigkeit als Unternehmensziel
+* ...
+
+
+==== Praktische Umsetzung
+
+Der letzte Teil widmet sich der praktischen Umsetzung von _Co-Kreativität_ und _Work-Life-Blending_:
+
+* Vorstellung »kompatibler« Methoden
+* Erfahrungsberichte zur Umsetzung
+* Vorstellung realer Projekte
+* ...
+
+
+=== Zielgruppen
+
+* Alle, die an _Co-Kreativität_ und _Work-Life-Blending_ interessiert sind
+* Alle, die _Co-Kreativität_ und _Work-Life-Blending_ fördern und sich an diesem Buchprojekt beteiligen wollen
+* Alle, die _co-kreative_ Gemeinschaft erzeugen wollen – über die Grenzen von Philosophien, Schulen, Methoden und Techniken hinweg
+
+
+== Wie kann ich beitragen?
+
+Erst einmal ist jede Form von Feedback sehr willkommen!
+
+Dieses Buch ist selbst als _co-kreatives_ Projekt gedacht. Voraussetzung für Beiträge zum Buch ist daher deine Zustimmung zu den Core-Commitments des Frameworks.
+
+.Willkommen sind:
+* Beiträge für das erweiterte Framework (»Ebene 2«)
+* Beschreibung von Schulen, Methoden und Techniken, die _Co-Kreativität_ unterstützen
+* Beispiele, Erfahrungsberichte, Anekdoten o. Ä. zur Illustration der bereits beschriebenen Prinzipien
+* Vorstellung von Firmen, Projekten oder sonstigen Unternehmungen, in denen _Co-Kreativität_ bereits praktiziert wird
+* Korrekturen vom Rechtschreibfehler bis hin zu inhaltlichen Verbesserungen
+
+Vorzugsweise übermittelst du deine Texte im {uri-what-is-asciidoc}[AsciiDoc]-Format über GitHub, nach Absprache auch in anderen Formaten.
+
+=== Aktuelle Beitragswünsche
+
+* Jede Art von Feedback!!!
+* Vorstellung der Gewaltfreien Kommunikation (GfK)
+
+== Stand
+
+Derzeitiger Stand: experimentell; Bitte um Feedback; fast alles kann sich noch ändern.
+
+.Bisher umgesetzt
+* Grundstruktur des Buchs
+* Vorwort
+* Einleitung
+* Core-Commitments
+* Einzelne Abschnitte bruchstückhaft gefüllt.
+
+Derzeit kann das Buch nur online über GitHub gelesen werden: *ToDo: Link*
+
+Geplant: PDF, epub und, wer weiß, vielleicht ja auch irgendwann einmal eine Druckversion.
+
+== Lizenz
+
+Copyright (C) 2017 Björn Klug.
+
+Ich konnte mich bisher noch nicht ausreichend über die verschiedenen Möglichkeiten der Lizensierung von Open Books informieren und behalte mir daher vorerst alle Rechte an diesem Buch vor. Je nach Resonanz und Beteiligung stelle ich es voraussichtlich unter eine Creative Commons License.

@@ -1,0 +1,792 @@
+= Offenes Framework für Co-Kreativität
+:doctype: book
+:encoding: utf-8
+:lang: de
+:toc: left
+:toclevels: 4
+:numbered:
+:appendix-caption: Anhang
+:caution-caption: Achtung
+:chapter-label: Kapitel
+:example-caption: Beispiel
+:figure-caption: Abbildung
+:important-caption: Wichtig
+:last-update-label: Zuletzt aktualisiert
+:manname-title: BEZEICHNUNG
+:note-caption: Anmerkung
+:table-caption: Tabelle
+:tip-caption: Hinweis
+:toc-title: Inhalt
+:untitled-label: Ohne Titel
+:version-label: Version
+:warning-caption: Warnung
+
+:sectnums!:
+[preface]
+== Vorwort
+
+Bis zum Frühjahr 2006 verlief meine Karriere eher klassisch-bürgerlich. Nach meinem Elektrotechnik-Studium verbrachte ich fünf Jahre als Forschungsingenieur in der Berliner Charité, und weil ich schon als Jugendlicher Freude am Programmieren hatte, hielt ich es für eine gute Idee, danach in die Software-Branche zu wechseln. Irgendwann landete ich als Softwareentwickler bei einem Finanzdienstleistungsunternehmen. 30 Wochenstunden, üppiges Gehalt, keine Überstunden, entspanntes Arbeitsklima, nette Kollegen. Meine Aufgaben konnte ich mit Leichtigkeit bewältigen, und ich erhielt stets positive Anerkennung für meine Leistung. Der perfekte Job – sollte man denken. Und doch kehrte ich an den meisten Abenden mit einem Gefühl der Leere von der Arbeit nach Hause zurück.
+
+Wie konnte das sein?
+
+Nun, zum einen gebe ich ganz klar Microsoft die Schuld :) Gefühlt die Hälfte meiner Arbeitszeit verbrachte ich nämlich damit, in Wissensdatenbanken zu recherchieren, warum meine Programme nicht so liefen, wie sie laut Microsoft-Dokumentation eigentlich hätten laufen sollen. Mein kreativer Fluss verebbte nicht selten zu einem eher felsigen Gebirgsbächlein.
+
+Doch der eigentliche Grund für meine Unzufriedenheit offenbarte sich mir erst während meiner Coaching-Ausbildung am Hendricks Institute in Kalifornien, die ich derzeit absolvierte. In den zurückliegenden Jahren hatte ich bei Gay und Katie Hendricks viel darüber gelernt, wie man seine engen Beziehungen so gestaltet, dass sie Energie geben statt zu zehren, und wie man den Hauptteil seines Lebens damit verbringt, die Dinge zu tun, die einem wirklich Spaß machen und damit auch noch seinen Lebensunterhalt verdient (»<<sec_genius, Genius-Arbeit>>«).
+
+Dort lernte ich also, dass ich in die »Falle der Exzellenz« getappt war: Zwar verdiente ich mein Geld mit etwas, was ich ziemlich gut konnte, es erfüllte mich aber selten. Deshalb hatte ich gewöhnlich am Ende eines Arbeitstages weniger Energie als zu Beginn. Wild entschlossen herauszufinden, wie ich dieses Verhältnis künftig umkehren konnte, machte ich mich daran, meine »Genius«-Qualitäten mehr zu betonen.
+
+Das mit den harmonischen Beziehungen hatte ich damals schon ganz gut drauf, und im Coaching hatte ich eines meiner neuen Talente entdeckt, also dachte ich mir: »Warum also nicht davon leben, anderen Menschen Werkzeuge an die Hand zu geben, mit denen sie in ihren Beziehungen auch glücklich werden können?«
+
+Gesagt, getan, Coachingpraxis gegründet. ... Seitdem habe ich viel gelernt.
+
+Zum Beispiel, dass ich gerne mehr unternehmerische Begabung hätte. Das mit dem Coaching funktionierte zwar super – kaum eine Sitzung, nach der ich mich nicht energetisiert und beschwingt fühlte –, aber die meisten betriebswirtschaftlichen Aspekte meiner neuen Existenz, wie Marketing und Akquise, kosteten mich viel Energie und nahmen viel zu großen Raum in meinem neuen Leben ein. Und genau das wollte ich ja vermeiden.
+
+So hielt sich auch der wirtschaftliche Erfolg meines Unternehmens in Grenzen. Weil mir finanzielle Stabilität aber wichtig ist, stand ich bald wieder mit einem Bein in der tayloristischen Arbeitswelt. Dort bereitete mir diesmal die eigentliche Arbeit, Datenbankprogrammierung und ein wenig Projektmanagement, überraschend viel Freude, nun jedoch lauerten die Energiekiller in der Zusammenarbeit mit dem IT-Dienstleister meines Auftraggebers.
+
+Gemessen an der Trivialität mancher Probleme war der mit ihrer Lösung verbundene Aufwand oft absurd hoch. Manchmal zog sich die Behebung eines Bugs über mehr als ein Jahr hin und wurde von vielen Stunden ineffizienter Kommunikation begleitet, obwohl der Bugfix selbst vielleicht nur dreißig Minuten in Anspruch nahm. Nicht selten sah ich das Bild von Don Quijotes Kampf gegen die Windmühlen vor meinem inneren Auge.
+
+Über einen längeren Zeitraum beobachtete ich genau, was Menschen __gegen__einander statt __mit__einander arbeiten lässt und warum sie so viel Energie in Konflikte, Machtkämpfe und unbewusste Kommunikation investieren, statt Kooperation an erste Stelle zu setzen. Umgekehrt fragte ich mich, welche Voraussetzungen erfüllt sein müssten, damit diese Energie stattdessen in das gemeinsame Erschaffen von etwas Neuem fließen kann, und die Idee zu diesem Framework ward geboren.
+
+Ich stellte mir ein Unternehmen vor, in dem die Aufgaben aller mit ihren persönlichen Begabungen harmonieren. Alle widmen sich hier Tätigkeiten, denen sie auch zum Vergnügen in ihrer Freizeit nachgehen würden und die sich nicht wie Arbeit anfühlen. Kreativer Ausdruck ist die Hauptmotivation, nicht die Notwendigkeit Geld zu verdienen. _Wie_ gearbeitet wird ist viel wichtiger als,  _was_ gearbeitet wird. Und weil ein solches Unternehmen einfach Spaß macht, haben alle ein vitales Interesse daran, miteinander zu kooperieren, statt sich gegenseitig Steine in den Weg zu legen. Eine solche Gemeinschaft ermöglicht eine besondere Form der Synergie, die das Endergebnis größer macht als die Summe aller Einzelleistungen.
+
+__<<co-kreativitaet, Co-Kreativität>>__ ist die zentrale Triebfeder dieses Unternehmens. Ich persönlich erlebe _Co-Kreativität_ als einen besonderen Bewusstseinszustand, der sich zum Beispiel in meinen Coaching-Sitzungen einstellt oder auch mit manchen Partnern beim Aikido-Training – inspiriert, zeitlos, voller Leichtigkeit. Ihr Gegenstück, »normales« (Er-)Schaffen, würde ich als angestrengt, uninspiriert oder widerstandsbehaftet beschreiben. Im Vergleich zueinander fühlt sich das eine wie 3-D und das andere wie 1-D an. Beispiele für diesen Zustand sind im gemeinsamen Spiel versunkene Kinder, die dabei Zeit und Raum vergessen, Musiker bei der Improvisation in einer Jam-Session oder ein erfahrenes Tanzpaar beim Tanz des Tango Argentino.
+
+Wie zu lesen ist, existieren bereits Unternehmen, die diese Form der Zusammenarbeit fördern, doch obwohl die Idee, unser Arbeitsleben glücklicher zu gestalten, nicht wirklich neu ist, findet man sie noch äußerst selten. Das wirft die Frage auf, warum sich trotz eines riesigen Angebots von Methoden zur Verbesserung des beruflichen Miteinander die alten tayloristischen Paradigmen hartnäckig halten. Warum ist beispielsweise die erfolgreiche Umsetzung agiler Methoden in bestehenden Unternehmen so schwer? Wie ist es möglich, dass die GfK-Szene in sich zerstritten ist (wie mir ein Insider der _Gewaltfreien Kommunikation_ einmal berichtete)?
+
+Die kurze Antwort hierauf ist (die lange ist dieses Buch), dass die Methode allein niemals die Heilung vollbringen kann. Damit sie fruchten kann, muss der Anwender sowohl aufrichtig an persönlicher Entwicklung interessiert sein als auch eine gewisse Eignung mitbringen. Fleiß allein ist nicht hinreichend, denn auch zwanzig Jahre täglicher Meditationspraxis bringen noch lange keinen Heiligen hervor. Nicht viele Menschen bringen die notwendigen Voraussetzungen mit, den eigenen Dämonen ins Antlitz zu blicken und sich von alten Mustern zu lösen. Die Ent-Wicklung des eigenen Ego ist eben selten ein einfacher Prozess und ganz offensichtlich nicht jedermanns Sache.
+
+Als wäre das im Hinblick auf eine co-kreative Arbeitswelt noch nicht schwierig genug, neigen die Anhänger von Schulen zur Persönlichkeitsentwicklung dazu, unter sich zu bleiben. Manche dieser Peergroups grenzen sich gar von der vermeintlichen Konkurrenz ab und bilden im schlimmsten Fall eine »Kirche« mit ähnlichen Macht- und Kommunikationsstrukturen der Systeme, die man durch das Praktizieren der eigenen Methoden eigentlich verlassen wollte. Dabei vergessen sie gänzlich, dass sie alle ein gemeinsames Ziel teilen: glücklicher werden.
+
+Solche Abgrenzungstendenzen halte ich für sowohl schädlich für unser gemeinsames Ziel als auch unnötig. Ich möchte mit diesem Buchprojekt den Dialog und die Kooperation zwischen Anhängern verschiedener Schulen fördern, die gemeinsame Essenz aller Methoden, die _Co-Kreativität_ begünstigen, herausstellen und so »Sprachbarrieren« beseitigen. Dann muss sich der Praktizierende buddhistischer Achtsamkeitsarbeit nicht erst das Vokabular der Gewaltfreien Kommunikation erarbeiten, bevor er mit einem Anhänger letzterer ein kreatives Projekt starten kann.
+
+Die ohnehin nicht zahlreichen co-kreativen Menschen haben also auch noch Schwierigkeiten sich zu finden, woran ich mit diesem Projekt etwas ändern möchte. Hierzu übernimmt das _Offene Framework für Co-Kreativität_ drei Aufgaben zugleich:
+
+. Es ist eine Richtschnur für _co-kreative_ Unternehm(ung)en jeder Art und fungiert sozusagen als Vertrag über den _Kontext_ der Zusammenarbeit. Es enthält die Vereinbarungen, die geschlossen werden _müssen_, noch bevor man sich mit dem _Inhalt_ eines Projekts beschäftigt, wenn man sich nicht später mit unnötigen Energieverlusten auseinandersetzen will.
+. Es soll _co-kreative_ Gemeinschaft fördern, also Menschen zusammenbringen, die an Co-Kreativität interessiert sind.
+. Es ist selbst ein _co-kreatives_ Projekt.
+
+Die Essenz des Frameworks ließe sich auf einen Satz herunterdestillieren: "Willst du ein glückliches Arbeitsleben, sei immer integer und kommuniziere stets bewusst!" Damit dieser Rat von Nutzen sein kann, muss allerdings erst einmal geklärt werden, was hier mit Integrität und bewusster Kommunikation gemeint ist, denn da gehen im Allgemeinen die Ansichten weit auseinander. Allerdings ist die Erklärung der zugrundeliegenden Prinzipien so, als wolle man jemandem den Geschmack eines guten Weins beschreiben – letztendlich ein unmögliches Unterfangen, selbst dann noch, wenn derjenige den Wein bereits gekostet hat. Um sich einem Konsens zumindest anzunähern, können Erfahrungsberichte, Beispiele, Anekdoten und Ähnliches helfen. Ist die Botschaft dann auf intellektueller Ebene verstanden, kommt gewöhnlich die Übung bestimmter Techniken ins Spiel, um das Gelernte zu verinnerlichen und im Alltag auch nutzbar zu machen.
+
+Meine Erfahrungswelt erstreckt sich vorwiegend auf die Hendricks-Arbeit und Aikido. Damit kann ich naturgemäß nicht alle erreichen, denn verschiedene Menschen werden von unterschiedlichen Methoden angezogen. Daher möchte ich besonders Vertreter anderer Schulen, die in Resonanz mit diesem Framework stehen, einladen, sich mit ihren Erfahrungen, Praxisbeispielen oder einer Vorstellung ihrer Methode an diesem Buchprojekt zu beteiligen. Jeder einzelne Blickwinkel enthüllt eine neue Facette des Diamanten namens Co-Kreativität.
+
+Wir haben nur _ein_ Leben. Seine Aufspaltung in ein beschwerliches Arbeitsleben und ein Privatleben, in dem wir unsere Akkus wieder aufladen müssen, ist optional. Lasst uns erforschen, wie wir mit derselben Freude unserer Arbeit entgegenfiebern wie unseren »Freizeit«-Beschäftigungen. Mein persönliches Ziel ist jedenfalls, künftig mit _beiden_ Beinen in der Welt der Co-Kreation zu wandeln.
+
+An dieser Stelle möchte ich gerne noch ganz besonders meinen Lehrern Gay und Katie Hendricks danken, deren Arbeit die Basis für das Framework ist. Sie verstehen es wie kein anderer mir bekannter Lehrer, ihren Schülern die Essenz der Weisheitslehren dieser Welt allgemeinverständlich und unmittelbar anwendbar zu vermitteln – wirksam über die Grenzen von Glaubenssystemen und Überzeugungen hinweg. Bei ihnen habe ich »Alltags-Aikido« gelernt, lange bevor ich Aikido auch als Kampfkunst für mich entdeckt habe.
+
+
+:sectnums:
+// ===========================================================================
+== Einführung [[chap_einfuehrung]]
+// ===========================================================================
+
+=== »Work-Life-Balance«
+
+Wir arbeiten, um Geld zu verdienen. Das Geld brauchen wir für Essen, ein Dach über dem Kopf und die Erhaltung unserer Gesundheit – fürs _Überleben_ also. Was dann noch übrig ist, investieren wir in das, was wir unser _Leben_ nennen. Dieses findet in unserer _Freizeit_ statt und soll möglichst Freude machen und unser Wohlbefinden nähren. Wir pflegen unsere sozialen Kontakte, sorgen für Unterhaltung, gehen unseren Hobbys nach, machen jährlich Urlaub usw.
+
+*Arbeit* _kostet_ Energie. Manchmal ist es die Arbeit selbst, die einfach keinen Spaß macht, uns nicht fordert oder nicht unseren Begabungen entspricht. Vielleicht behindern uns auch bürokratische Strukturen bei der Erledigung unserer eigentlichen Aufgaben, oder Machtkämpfe und ständig wiederkehrende emotionale Konflikte zehren an unseren Kräften.
+
+*Leben* _gibt_ Energie. In unserer Freizeit laden wir dann unsere Akkus auf, um sie am nächsten Tag am Arbeitsplatz wieder zu entladen. Im besten Fall funktioniert das sogar halbwegs (zumindest eine gewisse Zeit lang). Wenn es aber z. B. gerade in der Beziehung kriselt oder Krankheit ein Thema ist, dann klappt es mit der Regeneration oft nicht mehr so gut, und eine Abwärtsspirale beginnt.
+
+[quote]
+____
+»Work-Life-Balance« ist ein Zynismus.
+____
+
+Weil gestresste Mitarbeiter weniger effizient arbeiten, bemühen sich heutzutage viele Unternehmen, ihren Mitarbeitern ein besseres Gleichgewicht zwischen Arbeit und Privatleben zu bieten. Dies ist zweifelsohne eine begrüßenswerte Entwicklung mit durchaus positiven Verbesserungen auf die Lebensqualität von Arbeitnehmern. Genaueres Hinsehen jedoch entlarvt das beliebte Buzzword »Work-Life-Balance« als perfiden Zynismus.
+
+Zynisch, weil schon die dem Begriff innewohnende Annahme, dass _Arbeit_ und _Leben_ voneinander getrennte Bereiche sind, zumindest höchst fragwürdig, wenn nicht sogar grundlegend falsch ist. Perfide, weil der Arbeitnehmer – beschwichtigt durch erworbene Vergünstigungen – die Annahme weiterhin fraglos akzeptiert, er müsse zwischen energieraubender Arbeit und energetisierendem Leben so etwas wie ein Gleichgewicht herstellen. Denn dem Unternehmen geht es freilich nicht primär um das Wohl seiner Mitarbeiter, sondern um die Erhaltung bzw. Steigerung ihrer Arbeitskraft. Die vielgepriesene »Work-Life-Balance« entpuppt sich als gut getarnte Spielart tayloristischer Denkmuster.
+
+[CAUTION]
+.Funktioniert nicht so gut
+====
+*Firmenalltag*
+
+Das Team hat sich zusammengefunden, um über die Lösung eines kürzlich aufgetretenen Problems zu sprechen, das hohe Zusatzkosten verursachen wird. Erst einmal sucht man nach dem Schuldigen und beklagt sich daraufhin ausgiebig über die Inkompetenz der Verursacher. Diese wiederum versuchen, ihre Beteiligung nach Möglichkeit zu vertuschen und die Zuständigkeit für die Problembehebung auf andere abzuwälzen. Man fällt sich gegenseitig ins Wort, und die Diskussion wird zunehmend emotional. Schließlich spricht der Ranghöchste der Runde entnervt ein Machtwort und bestimmt, wer sich um die Behebung des Missstands kümmern soll.
+
+Nach der Sitzung prangern die Beteiligten in kleineren Bashing-Runden die Missstände im Unternehmen an und ereifern sich über die Unfähigkeit von Chef und Kollegen, bevor man irgendwann widerwillig die Arbeit wiederaufnimmt. Doch damit ist das Drama noch lange nicht beendet, denn abends bekommt so manches Familienmitglied zu spüren, wie schwer es ist, die emotionalen Belastungen des Arbeitstages hinter sich zu lassen und ein Gleichgewicht zwischen Berufs- und Privatleben herzustellen.
+====
+
+Gefühlte 99 % aller Menschen akzeptieren diese Aufteilung ihres Daseins in _Arbeit_ und _Leben_ ohne Vorbehalt. Ihre Großeltern und Eltern haben so gelebt, und nun haben auch sie sich daran gewöhnt. Folglich werden auch gefühlte 99 % aller Unternehmen noch von tayloristischen Prinzipien gesteuert – manche mehr, manche weniger –, auch wenn sich unsere Arbeitsbedingungen seit der industriellen Revolution unbestreitbar deutlich verbessert haben.
+
+=== Work-Life-Blending
+
+Wer sich zum restlichen Prozent zählt oder gerne zur hellen Seite der Macht wechseln würde, sollte nun weiterlesen. Arbeit kann nämlich durchaus Energie _geben_ und nicht nur zehren.
+
+Wir haben nur _ein_ Leben. Und es sollte Spaß machen. So oft und so lange wie möglich. Deshalb plädieren wir hier für ein Verschmelzen von Arbeit und Leben: Work-Life-_Blending_. Ein Leben, in dem sich Arbeit nicht wie Arbeit anfühlt und in dem ich mit den Tätigkeiten, denen ich auch unentgeltlich in meiner Freizeit nachginge, meinen Lebensunterhalt verdiene.
+
+Schöne Utopie? Wenn das so einfach wäre, würde es ja jeder machen?
+
+Einfach ist es tatsächlich selten, aber es ist durchaus möglich. Was also macht Work-Life-Blending so schwer?
+
+=== Schlüssel 1: das eigene Genius leben
+
+Der erste Grund ist, dass viele von uns auf der falschen Stufe ihrer Begabung arbeiten.
+
+Zunächst ist da einmal die riesige Schar von Opfern des Peter-Prinzips: In einer klassischen Unternehmenskultur werden wir gewöhnlich so lange befördert, bis wir die Stufe unserer Inkompetenz erreicht haben. Und da sich kaum jemand freiwillig zurückstufen lassen will, verrichten Millionen von Menschen Arbeit, für die sie eigentlich nicht geeignet sind. Das zehrt unweigerlich an den eigenen Kräften und kann unmöglich zur eigenen Lebensfreude beitragen.
+
+Doch auch Kompetenz ist noch lange kein Garant für Arbeitsfreude. Kompetent zu sein bedeutet ja lediglich, dass man eine Aufgabe in etwa genauso gut erledigen kann, wie die meisten anderen Menschen. Auch wenn ich jedes Jahr eine tadellose Steuererklärung abgebe, so schiebe ich ihre Erledigung doch meist soweit hinaus wie möglich, und tiefe innere Befriedigung werde ich dabei wohl nie empfinden. Nichtsdestotrotz ist Kompetenz für eine Vielzahl von Arbeitsplätzen ein hinreichendes Einstellungskriterium.
+
+Daraus könnte man nun schlussfolgern, dass man den Traumjob genau dann gefunden hat, wenn man exzellent in dem ist, was man dort tut. Reingefallen! Ich mag ein exzellenter Anwalt sein, aber wenn ich nur deshalb Jura studiert habe, weil Papa mir mal die Praxis vererben möchte, obwohl ich viel lieber Tänzer geworden wäre, dann darf auch ich mich auf eine turbulente Lebensmittelkrise freuen.
+
+Die Lösung des Dilemmas liegt in dem, was Gay Hendricks unser »<<sec_genius, Genius>>« nennt – nicht zu verwechseln mit Genie. Ein erfülltes Arbeitsleben ist also nicht nur denen vorbehalten, die Albert Einstein das Wasser reichen können. Natürlich ist nicht jeder ein Genie, aber jeder von uns hat ein Genius. Ob wir bei der Arbeit unsere Genius-Qualitäten nutzen, erkennen wir weniger daran, _was_ wir am Ende produziert haben, sondern daran, _wie_ sich die Arbeit anfühlt. Wenn beispielsweise Malen zu meinem Genius zählt, dann werden meine Bilder nicht zwangsläufig irgendwann im Louvre hängen. Vielmehr ist Malen dann für mich eine geliebte Tätigkeit, die sich nicht wie Arbeit anfühlt, bei der die Zeit verfliegt und nach der ich mehr Energie als vorher habe. Diese Tätigkeit ergibt das höchste Verhältnis von Fülle und Befriedigung zur aufgewendeten Zeit.
+
+Der erste Schlüssel zu einem glücklichen und erfüllenden Arbeitsleben ist also, möglichst viel auf der Ebene unseres Genius zu arbeiten und möglichst wenig in den Bereichen unserer Inkompetenz, Kompetenz oder Exzellenz.
+
+=== Schlüssel 2: bewusst kommunizieren
+
+Für den Prototypen des einsamen Poeten spricht nun nichts mehr gegen ein erfolgreiches Work-Life-Blending. Alle anderen kommen nicht umhin, sich mit den Herausforderungen zwischenmenschlicher Beziehungen auseinanderzusetzen. Denn wenn es bei der Zusammenarbeit »menschelt«, dann geht schon mal so einiges an Energie für unbewusste Kommunikation (emotionale Konflikte, Machtkämpfe, Ego-Spielchen usw.) verloren, die uns dann für unseren kreativen Ausdruck nicht mehr zur Verfügung steht.
+
+Angesichts einer Vielzahl an Weiterbildungsmöglichkeiten zu  Konfliktmanagement, Kommunikationstraining, Führung, Mediation u. Ä. stellt sich die Frage, warum die berufliche Zusammenarbeit selbst für viele derer, die viel Zeit und Geld in die Verbesserung ihrer Soft Skills investiert haben, ein schwieriges Thema bleibt.
+
+Bleibt die Kommunikation problematisch, liegt die Ursache in der zugrundeliegenden Absicht, mit der die erlernten Techniken angewendet werden. Zu groß ist nämlich die Verlockung, andere Menschen so zu beeinflussen, dass sie sich den eigenen Wünschen gemäß verhalten, was in der praktischen Anwendung in der Regel scheitert. Selbst wenn die Methode selbst keinen manipulativen Zweck verfolgt, kann sie von ihrem Anwender immer noch missverstanden oder zweckentfremdet werden. Jedoch können nur Techniken, die die _eigene_ Persönlichkeit ent-wickeln, __wesen__tliche Verbesserungen in unseren Beziehungen hervorbringen. Das Erlernen bewusster Kommunikation erfordert nicht die Perfektionierung einer <<sec_technik,Technik>>, sondern die Integration der ihr innewohnenden Essenz.
+
+Mit _bewusster Kommunikation_, unserem zweiten Schlüssel, sind in unserem Kontext all jene Fertigkeiten gemeint, die ein __Mit__einander unterstützen und das __Gegen__einander auflösen. Wir lernen eine neue Grundhaltung der Wertschätzung, durch die wir andere nicht mehr als Gegner, sondern als Verbündete sehen. Um gleich einem Missverständnis zuvorzukommen: Das heißt nicht, dass man sich auf inhaltlicher Ebene immer einig sein muss, sondern nur, dass wir uns einer Arbeitsweise verpflichten, die auf kommunikative Reibung verzichtet.
+
+=== Co-Kreativität ermöglichen
+
+Richtig spannend wird es, wenn wir beide Schlüssel zusammenfügen. Wenn zwei oder mehr Menschen auf der Ebene ihres Genius kreativ zusammenarbeiten, wird _<<sec_co-kreativitaet, Co-Kreativität>>_ möglich, eine radikal neue Form der Zusammenarbeit, bei der ein Maximum der verfügbaren Energie in kreative Prozesse fließt und nur ein Minimum durch kommunikative Reibung verloren geht. Nun wird Arbeit Lust statt Last, und wir können mit der gleichen Freude zur Arbeit gehen, mit der wir auch zur Tanzstunde, zum Fußball oder ins Kino gehen.
+
+Damit dies möglich wird, dürfen wir keine Energie durch Integritätsverletzungen verschwenden, müssen wir uns für bewusste Kommunikation engagieren und uns dem kreativen Ausdruck unserer natürlichen Begabungen verpflichten.
+
+Diese Selbstverpflichtungen in den Bereichen
+
+. Integrität
+. Bewusste Kommunikation
+. Kreativität
+
+werden hier »Core-Commitments« genannt und bilden den Kern dieses Frameworks. Sie sind nicht als neue Methode oder Technik zu verstehen, vielmehr handelt es sich um Prinzipien, die für alle Methoden gelten, die ein glückliches und erfülltes Arbeitsleben zum Ziel haben. Diese Prinzipen werden in den wenigsten Schulen explizit und vollständig gelehrt, meist sind sie nur als implizite Voraussetzung für eine erfolgreiche Anwendung der gelehrten Methoden enthalten.
+
+So lehrt zum Beispiel die Gewaltfreie Kommunikation sehr explizit die Prinzipien bewusster Kommunikation, wird rund um das Thema Integrität eher impliziter und hat nur wenig zum persönlichen kreativen Ausdruck beizutragen. Noch deutlicher wird es bei den derzeit beliebten _agilen_ Methoden, bei denen alle drei Bereiche nur implizit vorausgesetzt werden.
+
+Wenn die Anwendung derartiger Methoden zur Förderung von _Co-Kreativität_ auf Hindernisse stößt oder gar ganz scheitert, dann ist die Ursache zuerst in der Verletzung der Core-Commitments zu suchen. Das _Framework für Co-Kreativität_ kann solche Probleme lösen oder deren Entstehung von vornherein vorbeugen, wenn es bereits im Vorfeld einer Unternehmung angewandt wird.
+
+NOTE: ToDo: noch nicht rund...
+
+=== Aufbau dieses Buches
+
+==== Core-Commitments
+
+.Kernaussage dieses Buches
+****
+Wenn Arbeit keine Freude (mehr) bereitet, dann ist die Ursache *zuerst* in der Verletzung von Commitments zu *Integrität*, *bewusster Kommunikation* und *Kreativität* zu suchen. Sie bilden die _notwendige_ Basis für _jeden_ Lösungsansatz, der _nachhaltig_ wirken soll.
+****
+
+==== Erläuterungen
+
+Dem ein oder anderen mögen die beschriebenen Prinzipien trivial erscheinen, doch sie werden leicht unterschätzt oder missverstanden. Daher widmet sich ein großer Teil dieses Buches mit der Beschreibung dieser _gemeinsamen Essenz aller Methoden_ aus möglichst vielen Blickwinkeln. Alle verwendeten Begriffe werden hier so genau wie möglich beschrieben, oder besser: umschrieben.
+
+==== Zweite Ebene des Frameworks
+
+Die zweite Ebene des Frameworks wird nach und nach mit »optionalen Commitments« gefüllt, einzelne Bausteine, deren Nutzen von der Art der jeweiligen Unternehmung abhängt, zum Beispiel:
+
+* Verpflichtung eines Unternehmens zur Nachhaltigkeit
+* Gemeinnützigkeit als Unternehmensziel
+* ...
+
+==== Umsetzung
+
+Der letzte Teil widmet sich der praktischen Umsetzung von _Co-Kreativität_ und _Work-Life-Blending_:
+
+* Vorstellung »kompatibler« Methoden zum Erlernen der Core Skills
+* Erfahrungsberichte zur Umsetzung, Anekdoten usw.
+* Vorstellung realer Projekte, Beispiele existierender »Implementierungen« (Firmen, Projekte, Organisationen)
+** existierende wirtschaftliche oder organisatorische Modelle, die das Framework bereits implizit enthalten oder mit ihm kompatibel sind
+* ...
+
+
+// ===========================================================================
+== Die Core-Commitments des _Framework für Co-Kreativität_ [[chap_core]]
+// ===========================================================================
+
+Nachfolgend sind die Bedingungen für die Art von Zusammenarbeit aufgeführt, bei der ein Maximum der verfügbaren Energie in kreative Prozesse fließt und nur ein Minimum durch kommunikative Reibung verloren geht.
+
+.Commitment
+****
+Der englische Begriff »Commitment« wird hier verwendet, weil es kein deutsches Wort mit äquivalenter Bedeutung gibt. Eine vollständige und sinngemäße Übersetzung erfordert im Deutschen drei Teilbegriffe:
+
+* *Verpflichtung* +
+Für viele ist das Wort »Pflicht« eher negativ belegt, im Sinne eines von außen auferlegten Zwanges. Ein Commitment ist jedoch eine positive Form der Verpflichtung, wie in »sich selbst verpflichtet sein«.
+* *Engagement* +
+drückt eine aufrichtige Willenserklärung aus innerem Antrieb aus.
+* *Zusage* oder *Versprechen* +
+Hier ist wichtig, dass nicht eine Art Vertrag mit einer außenstehenden Partei impliziert wird, der bei Nichteinhaltung Konsequenzen nach sich zieht. Vielmehr stellt ein Commitment eine Zusage an sich selbst dar.
+
+Ein _Commitment_ ist also eine _aufrichtige Zusage, sich etwas engagiert zu verpflichten_.
+****
+
+Es handelt sich um eine Liste von Fähigkeiten, die gemeinhin unter die Kategorie der »Soft Skills« gezählt werden. Das heißt jedoch nicht, dass alle Beteiligte perfekt in der Anwendung dieser Fähigkeiten sein müssen – das wäre für die allermeisten eine unerfüllbare Forderung. Viel wichtiger ist das Vorhandensein des _Commitments_ zu jeder dieser Eigenschaften. Deshalb ist jeder Punkt mit einem vorangestellten »Ich sage aufrichtig zu, ...«, »Ich engagiere mich dafür, ...« oder »Ich verpflichte mich, ...« zu lesen.
+
+:sectnums!:
+=== Die Core-Commitments [[sec_corecommitments]]
+
+* *Integrität*
+** Makellose Vereinbarungen
+** gesunde Verantwortung
+* *Bewusste Kommunikation*
+** Bewusstes Zuhören
+** Feedback geben und empfangen
+** Emotionale Transparenz
+** Wertschätzung
+* *Kreativität*
+** Genius
+** Co-Kreativität
+
+Die Core-Commitments wirken zwischen den kooperierenden Teilnehmern als Vertrag über den _Kontext_ der Zusammenarbeit, nicht über ihren Inhalt. _Wie_ zusammengearbeitet wird, ist das primäre Ziel der Unternehmung, das Produkt ist sekundär.
+
+[IMPORTANT]
+====
+Für co-kreative Zusammenarbeit ohne Energieverluste ist jede einzelne dieser Zusagen _notwendig_.
+
+Wird mindestens eines dieser Commitments nicht aufrichtig eingegangen, treten  _unweigerlich_ irgendwann Energieverluste auf.
+
+Umgekehrt bedeutet das Auftreten von Energieverlusten, dass mindestens eines dieser Commitments brüchig ist.
+====
+
+Optimalerweise sollte dieser kontextuelle Rahmen hergestellt werden, _bevor_ man sich mit den inhaltlichen Fragen einer Unternehmung beschäftigt, um der Entstehung von Verstrickungen vorzubeugen, die später zu Energieverlusten führen.
+
+:sectnums:
+=== Integrität
+
+==== Makellose Vereinbarungen
+
+[quote]
+____
+. Ich sage zu, nur Vereinbarungen einzugehen, die ich auch einhalten kann und will.
+. Ich sage zu, keine Vereinbarungen einzugehen, die ich nicht einhalten kann oder will.
+. Ich sage zu, all meine Vereinbarungen gewissenhaft einzuhalten.
+. Ich sage zu, meine Vereinbarungen bewusst anzupassen, sobald es erforderlich wird.
+____
+
+<<sec_vereinbarungen, Erläuterungen>>
+
+==== Verantwortung
+
+[quote]
+____
+Ich sage zu, bereitwillig/freudig/bewusst gesunde Verantwortung übernehmen und andere dabei zu unterstützen, dies ebenfalls zu tun.
+____
+
+<<sec_verantwortung, Erläuterungen>>
+
+=== Bewusste Kommunikation
+
+==== Bewusstes Zuhören
+
+[quote]
+____
+Ich sage zu, auf den drei Ebenen Inhalt, Empathie und Co-Kreativität bewusst zuzuhören.
+
+. Ich engagiere mich dafür, das Gesprochene inhaltlich vollständig zu erfassen und wiedergeben zu können
+. Ich engagiere mich dafür, empathisch zuzuhören und die Gefühle und Emotionen meines Gegenübers zu erfassen.
+. Ich engagiere mich dafür, zu hören, was mein Gegenüber wirklich will.
+____
+
+<<sec_zuhoeren, Erläuterungen>>
+
+==== Feedback geben und empfangen
+
+[quote]
+____
+. Ich sage zu, anderen wertschätzendes Feedback zu geben.
+. Ich sage zu, Feedback wertschätzend zu empfangen, ganz gleich, wie es übermittelt wird.
+____
+
+<<sec_feedback, Erläuterungen>>
+
+==== Emotionale Transparenz *[0 %]*
+
+[quote]
+____
+. Ich sage zu, 100 % Verantwortung für meine Gefühle zu übernehmen.
+. Ich sage zu, meine Gefühle zu kennen und sie anderen gegenüber verständlich zu kommunizieren.
+____
+
+.ToDo
+NOTE: besser?
+
+<<sec_emotionaletransparenz, Erläuterungen>>
+
+==== Wertschätzung
+
+[quote]
+____
+. Ich engagiere mich für eine wertschätzende Grundhaltung anderen Menschen gegenüber.
+. Ich engagiere mich für eine wertschätzende Grundhaltung mir selbst gegenüber.
+____
+
+<<sec_wertschaetzung, Erläuterungen>>
+
+=== Kreativität
+
+[quote]
+____
+. Ich sage zu, meine einzigartigen Genius-Qualitäten zu kennen, zu fördern und auszudrücken.
+. Ich engagiere mich für die Förderung von Co-Kreativität, wo immer möglich.
+____
+
+<<sec_kreativitaet, Erläuterungen>>
+
+// ===========================================================================
+== Erläuterungen [[chap_erlaeuterungen]]
+// ===========================================================================
+
+Um den vollen Wert des Frameworks auszuschöpfen, bedarf es einiger Erläuterungen, denn weil jeder Mensch Worte unterschiedlich interpretiert, sind Missverständnisse unvermeidlich. Jeder pickt sich aufgrund seiner persönlichen Erfahrungen aus dem Bedeutungshof eines Wortes seine persönliche Bedeutung heraus. Einige Beispiele:
+
+* *Verantwortung*: Erfahrungsgemäß assoziieren die meisten damit Worte wie Schuld, Last oder Pflicht. In unserem Kontext ist jedoch eine Verantwortung gemeint, die das Leben leichter und nicht schwerer macht.
+* *Integrität*: Den Ehepartner nicht betrügen, nicht stehlen und immer seine Steuern zahlen ist schon mal nicht schlecht, aber wenn die dahinter stehende Motivation nur die Angst vor Strafe ist, dann sind wir von wahrer Integrität noch weit entfernt.
+* *Zuhören*: Manch einer mag glauben, dass nichts zu sagen bereits ausreicht, um jemandem zuzuhören. Bewusstes Zuhören erfordert hingegen eine radikal neue Grundhaltung dem Sprecher gegenüber – urteilsfrei, empathisch, zugewandt und authentisch.
+
+Dieses Kapitel widmet sich der Minimierung derartiger Missverständnisse, indem es alle Schlüsselbegriffe in so vielen Facetten wie möglich  __um__schreibt.
+
+
+=== Commitment *[10 %]*
+
+[CAUTION]
+.Funktioniert nicht so gut
+====
+*Beziehungssabotage*
+
+In der Paarberatung kommt es nicht selten vor, dass die Partner mit ganz unterschiedlichen Absichten zum ersten Termin erscheinen. Nicht selten ist _sie_ die treibende Kraft, die die Beziehungsprobleme angehen will, aber _er_ ist vielleicht nur erschienen, damit das ständige Nörgeln endlich aufhört. Natürlich würde er das nie offen zugeben, und insgeheim wünscht er sich, dass die Beratung ihm bestätigt, dass _er_ eigentlich im Recht und _sie_ Schuld an der Misere ist.
+
+Ohne das bewusste Commitment _beider_, das _gemeinsame_ Problem zu lösen, wird die Beratung ein eher kräftezehrender Prozess sein, der die Kluft zwischen beiden sogar noch vergrößern kann (was nicht immer ein negatives Ergebnis sein muss).
+
+Erst wenn beide die volle Verantwortung für ihren Anteil an ihren Differenzen übernehmen, wird eine co-kreative Lösung für ihre Probleme möglich.
+
+Unbewusste Commitments sabotieren Beziehungen.
+====
+
+
+=== Integrität *[10 %]* [[sec_integritaet]]
+
+[NOTE]
+.Stichpunkte
+====
+* »Unversehrtheit«
+* ≠ Moral
+* Denken und Handeln ist im Einklang
+====
+
+
+[CAUTION]
+.Funktioniert nicht so gut
+====
+*Lügen*
+
+Wenn wir jemanden belügen, verletzen wir unsere Integrität. Durch unsere Lüge erschaffen wir zwei Versionen unseres Selbst. Die erste Version kennt die Wahrheit, die zweite Version müssen wir nach außen hin präsentieren, um die Lüge aufrecht zu erhalten. Auf diese Weise sind wir nicht mehr unversehrt. Wir können allerdings jederzeit unsere Integrität wiederherstellen, indem wir die Wahrheit sagen und für alle Konsequenzen bereitwillig die Verantwortung übernehmen.
+====
+
+
+==== Makellose Vereinbarungen *[10 %]* [[sec_vereinbarungen]]
+
+[NOTE]
+.Stichpunkte
+====
+* Nutzen: machen das Leben deutlich stressfreier und beugen Energieverschwendung vor
+* Commitments mögen trivial klingen, sind es aber nicht
+* der schwierige Teil ist, genau zu wissen, welche Vereinbarungen man eingehen möchte und welche nicht
+* schlechte Ideen:
+** Vereinbarung nur aus Pflichtgefühl eingehen/einhalten
+** Vereinbarung treffen, weil man nett sein möchte
+** Vereinbarung aus Angst eingehen
+** Erwartungen nicht aussprechen, stille Erwartungen
+** ...
+====
+
+[CAUTION]
+.Funktioniert nicht so gut
+====
+*Stille Erwartungen*
+
+* Beispiel: Der Arbeitgeber einerseits findet es selbstverständlich, dass der Angestellte unbezahlte Überstunden macht, der Angestellte andererseits erwartet einen Ausgleich in Lohn oder Freizeitausgleich. Dummerweise wurde dieses Thema nie angesprochen. Statt eine klare Vereinbarung zu treffen, reagiert man gereizt, erträgt die Ungerechtigkeit zähneknirschend etc.
+====
+
+
+==== Ver-Antwort-ung *[0 %]* [[sec_verantwortung]]
+
+[NOTE]
+.Stichpunkte
+====
+* *nicht* Pflicht, Schuld, Last, kann nicht zugewiesen werden
+* beginnt erst, wenn sie übernommen wird, mit der Handlung, der Antwort
+* ist die Fähigkeit zu antworten (»response-ability«)
+* Gegenteil: Schuldzuweisung, Vorwürfe, Abwehrhaltung
+
+.Voraussetzungen für gesunde Verantwortung
+* emotionale Kompetenz
+** die eigenen Gefühle und ihre Lokalisation im eigenen Körper kennen
+** Verantwortung für die eigenen Gefühle übernehmen, ihre wahre Quelle kennen, selbst wenn es so aussieht, als sei der andere daran schuld
+** seine Gefühle verständlich verbal ausdrücken können
+* den Unterschied zwischen Kontrollierbarem und Unkontrollierbarem erkennen können und das Unkontrollierbare loslassen. Direkte Konsequenzen:
+** Versuche aufgeben, Menschen zu manipulieren
+** eigene Verantwortung nicht an andere abgeben
+** keine Verantwortung anderer an sich reißen
+* ist nicht möglich, solange man sich seinen automatischen Reaktionen hingibt (Wutausbruch, Wettrennen um die Opferrolle o. Ä.)
+====
+
+
+=== Bewusste Kommunikation *[0 %]* [[sec_kommunikation]]
+
+[NOTE]
+.Stichpunkte
+====
+* Drama-Dreieck einführen und erläutern
+* Rolle von Angst
+** Reptiliengehirn
+** setzen unbewusst Situationen fälschlicherweise in einen Überlebenskontext
+** Kampf/Flucht/Erstarren/Ohnmacht
+====
+
+
+==== Bewusstes Zuhören *[50 %]* [[sec_zuhoeren]]
+
+[NOTE]
+.ToDo
+====
+* weiter ausführen
+** urteilsfreies Zuhören
+* anschauliche Beispiele
+====
+
+Echtes Zuhören eine seltene Kunst. Gemeinhin wird stattdessen der so genannte Meinungsaustausch gepflegt, was in der Regel bedeutet, dass nach dem Gespräch beide Partner mit ihren Meinungen wieder nach Hause gehen, ohne dass sich an selbigen irgend etwas verändert hätte. Der Preis, den wir dafür bezahlen: echte Beziehungen können so nicht zustande kommen. Authentische Beziehungen bedürfen bewusster Kommunikation, deren erste Voraussetzung die Fähigkeit zum Zuhören und nicht etwa die Fähigkeit zum präzisen und prägnanten Ausdruck ist. Bewusstes Zuhören in diesem Sinne findet auf 3 Ebenen statt:
+
+. *Inhalt* – das korrekte und vollständige Erfassen der übermittelten Information
+. *Empathie* – das Hören der in den Worten mitschwingenden Gefühle
+. *Co-Kreativität* – Hören, was der Sprecher wirklich will
+
+Schon auf der ersten Ebene stellt es für die meisten erfahrungsgemäß eine schier unlösbare Aufgabe dar, den Inhalt des in einer Minute gesprochenen Textes sinngemäß wiederzugeben. Da wundert es nicht, dass sich in Kommunikation selten jemand für die Gefühle und Bedürfnisse eines anderen interessiert. Das Seltsame ist, dass Menschen es lieben, wenn man ihnen wirklich zuhört, und weil das kaum jemand tut, versuchen sie den anderen unbewusst zum Zuhören zu zwingen, indem sie ihm ihre Information mit Gewalt aufdrängen. Zweifelsohne steht »Nie hörst du mir zu!« in den Top 5 der häufigsten Beschwerden in Paarbeziehungen.
+
+Warum hören wir eigentlich nicht mehr richtig zu? Ein Hauptgrund sind unsere »Zuhörfilter«. Noch bevor uns die Worte unseres Gesprächspartners wirklich erreichen, sind wir schon bemüht zu helfen und das Problem zu lösen, oder wir fangen an, das Gesagte zu kritisieren und wollen Recht haben, oder wir beginnen ein Wettrennen um die Opferrolle und wollen den anderen davon überzeugen, dass wir ja noch schlechter dran sind als er. Was wir dabei gar nicht bemerken, ist, dass wir uns vom anderen isolieren, was im Extremfall dazu führt, dass es von außen betrachtet zwar wie ein Gespräch aussieht, sich in Wirklichkeit aber zwei Menschen gegenüber sitzen, die autistisch nur mit ihren eigenen Interessen beschäftigt sind.
+
+Jemand, der bewusst zuhört, sagt beispielsweise
+
+»Erzähl mir mehr!« statt »Moment mal, das stimmt so nicht …«
+
+oder
+
+»Das hört sich an, als wärest du gerade sehr traurig darüber, dass …« statt »Schau mal, die Lösung liegt doch auf der Hand: …«
+
+oder
+
+»Kann ich dich irgendwie dabei unterstützen?« statt »Ich verstehe einfach nicht, wieso das so ein Problem für dich ist!«
+
+Bewusstes Zuhören lässt sich nicht im Rhetorikkurs erlernen, da es nicht als Technik zu begreifen ist sondern als eine innere Haltung. Es wird nicht wirklich Ihre Beziehungen positiv beeinflussen, wenn Sie zwar »Erzähl mir mehr!« aussprechen aber »Mann, wie lange muss ich mir das Gesülze denn noch anhören!« denken. Ohne die aufrichtige Bereitschaft, die eigenen Motive vorerst hintan zu stellen, ist bewusstes Zuhören nicht möglich. Es erfordert Ihren ehrlichen Willen, den anderen so gut es geht verstehen zu können und sich für seine Bedürfnisse zu interessieren.
+
+Ein guter Zuhörer ist also kein passiver Empfänger, sondern stellt aktiv einen Raum zur Verfügung, in dem sich der Sprecher mit seinem Anliegen frei entfalten kann. Der Lohn: Beziehungen mit Tiefe und die Möglichkeit, gemeinsam etwas vollkommen Neues zu erschaffen – _Co-Kreativität_ also.
+
+
+==== Feedback *[40%]* [[sec_feedback]]
+
+Feedback im weiteren Sinne ist jede Form von Rückmeldung, die wir von anderen Menschen erhalten, unabhängig davon, wie sie übermittelt wird, z. B. Lob, Tadel, Wertschätzung, Kritik (konstruktive wie destruktive) usw.
+
+Im engeren Sinne ist unter Feedback eine wertschätzende Form der Rückmeldung gemeint, die sich wesentlich von Kritik unterscheidet. Die Unterschiede zwischen wertschätzendem Feedback und Kritik sind:
+
+[cols=2*,options="header"]
+|===
+|Feedback
+|Kritik
+
+|ist unbestreitbar
+|ist bestreitbar
+
+|beginnt meist mit »Ich ...«
+|beginnt meist mit »Du ...«
+
+|drückt Wertschätzung des Gebers aus
+|wertet den Empfänger
+
+|verbindet Menschen und fördert authentische Beziehungen
+|trennt Menschen (griechischer Wortstamm: »scheiden, trennen«)
+
+|ist co-kreativ
+|ist manipulativ (Pole: Lob und Tadel)
+|===
+
+Kritik kann nützlich sein, um die eigenen Vorlieben und Abneigungen zu verdeutlichen, wenn sie auf Gegenstände und Handlungen gerichtet ist. Bei Anwendung auf Menschen ist sie ist jedoch in der Regel schädlich. »Konstruktive Kritik« wird oft als positive Form der Kritik angeführt, oft handelt es sich jedoch nur um einen verschleiernden Euphemismus, hinter dem sich manipulative Absichten verbergen.
+
+.ToDo
+NOTE: Artikel Kritik/Lob/Tadel einarbeiten.
+
+
+===== Die Kunst, Feedback zu geben *[0 %]*
+
+
+===== Die Kunst, Feedback zu empfangen *[0 %]*
+
+
+==== Emotionale Transparenz *[5 %]* [[sec_emotionaletransparenz]]
+
+[NOTE]
+.Stichpunkte
+====
+* ist in der klassischen Arbeitswelt verpönt
+* erforderliche Fähigkeiten:
+** Gefühle im gegenwärtigen Moment erkennen und fühlen können
+** Gefühle zuverlässig voneinander unterscheiden können
+** zwischen der Erfahrung eines Gefühls und dessen Ausdruck unterscheiden können
+** Gefühle zu ihrer Quelle verfolgen können (auslösende Gedanken oder Ereignisse)
+** Gefühle verständlich kommunizieren können
+** _mit_ Gefühlen sein können, statt sie zu verleugnen oder durch Essen, Fernsehen o. andere Ablenkungen zu verdrängen
+====
+
+
+==== Das Gegenüber als Verbündeten sehen *[0 %]*
+
+NOTE: ToDo: ausführen. Parallele zu Harmonie und Unverletztheit im Aikido
+
+
+=== Kreativität *[10 %]* [[sec_kreativitaet]]
+
+[NOTE]
+.Stichpunkte
+====
+* ist hier im allerweitesten Sinn gemeint, nicht nur im Sinne von künstlerischem kreativen Ausdruck
+====
+
+
+==== Genius - die vier Bereiche der Begabung *[0 %]* [[sec_genius]]
+
+In seinem Buch _The Big Leap_ <<bigleap>> teilt Gay Hendricks unsere Begabungen in vier Bereiche ein:
+
+* Inkompetenz
+* Kompetenz
+* Exzellenz
+* Genius
+
+===== Inkompetenz
+
+.Merkmale
+* Fast jeder andere kann es besser als ich
+* fast immer negatives Feedback
+* kostet viel Energie und Zeitaufwand
+* kein Spaß
+
+===== Kompetenz
+
+.Merkmale
+* Andere können es genauso gut wie ich
+* Ich tue es gut, finde es aber nicht voll befriedigend
+* kostet Energie
+* kein Spaß
+
+===== Exzellenz
+
+.Merkmale
+* Ich kann es besser als fast jeder andere
+* immer positives Feedback
+* Energie bleibt gleich oder sinkt
+* evtl. Beigeschmack von „Betrug“
+* kaum Spaß
+
+===== Genius
+
+.Merkmale
+* gemeinsames Ziel steht im Vordergrund
+* Zeit verfliegt
+* nicht anstrengend, fühlt sich nicht wie Arbeit an
+* Leichtigkeit, geht wie von selbst von der Hand
+* Lust am Weiterverfolgen
+* Synergie
+* Qualität kindlichen Spiels
+* man will gar nicht aufhören
+* Energiequelle, Energie hinterher größer als vorher
+* kein Ego, nicht »Ich! Ich! Ich!«, sondern »Wir! Wir! Wir!«
+* kein Machtkampf, miteinander statt gegeneinander
+* geliebte Tätigkeiten, die Freude machen und nicht wie Arbeit scheinen
+* erzeugt, gemessen am Zeitaufwand, die meisten positiven Ergebnisse
+* besondere, natürliche Begabung
+* außergewöhnliche Fähigkeiten, die die Organisation (Familie, Beziehung, Firma) nur schwer ersetzen könnte
+* Ideen sprudeln
+* würde es auch ohne Geld tun
+* geht nicht ums Rechthaben, um Macht
+* anderer Bewusstseinszustand, kein simples Anwenden von Techniken (ist wie wahre Liebe in Äußerlichkeiten zu suchen)
+
+
+==== Co-Kreativität *[0 %]* [[sec_co-kreativitaet]]
+
+Das Besondere an Co-Kreativität ist, dass eine besondere Form der Synergie entsteht, die das Endprodukt der Kooperation größer macht als die Summe ihrer Einzelbeiträge.
+
+=== Technik und Essenz *[80 %]* [[sec_technik]]
+
+[NOTE]
+.ToDo
+====
+* weitere anschauliche Beispiele
+* stilistisch glätten
+====
+
+Für Persönlichkeitsentwicklung im weitesten Sinne können Techniken hilfreich sein, aber sie sind weder hinreichend noch zwingend notwendig für die Verinnerlichung der ihnen zugrundeliegenden Essenz.
+
+Entspannung, Gelassenheit, Selbstvertrauen, Liebe, Harmonie, Freude, Frieden, Glück, Kreativität, Intuition, eine Lebensaufgabe, Erfüllung, Sinn, Freiheit, Selbsterkenntnis oder sogar Erleuchtung – nach solchen Dingen Strebende suchen sich bisweilen Lehrer, die ihnen den Weg weisen. Von diesen lernen sie dann irgendeine Form von Technik, deren Anwendung sie von ihrem Leiden erlösen und ans Ziel ihrer Sehnsucht führen soll. Zumindest anfangs erliegen die meisten dem fundamentalen Missverständnis, dass die ersehnte Erlösung in der Perfektion der Technik liegt. Wer sein altes Gefängnis nicht nur neu tapezieren, sondern wahre Freiheit hinzugewinnen will, muss irgendwann die Techniken wieder loslassen.
+
+[CAUTION]
+.Missverstandene Technik
+====
+* Der Pianist spielt zwar virtuos, interpretiert Rachmaninov aber mit der emotionalen Sterilität eines Technosongs.
+* Die Worte eines Anwenders der gewaltfreie Kommunikation sind zwar freundlich, seine Gedanken jedoch voller Gewalt.
+* Nach mehrjähriger Meditationspraxis im Kloster löst der turbulente Alltag der Großstadt in Sekundenschnelle wieder inneren Tumult aus.
+* Ein Christ praktiziert in der eigenen Gemeinde christliche Nächstenliebe, verachtet jedoch gleichzeitig all jene, die den eigenen Glauben nicht teilen.
+* Das »Yoga« in der Muckibude um die Ecke ist zu einer reinen Fitness-Übung degeneriert und hat sich vollständig von seinen spirituellen Wurzeln entfremdet.
+====
+
+Wenn wir uns nach der Wiederentdeckung unserer Essenz sehnen, stoßen wir auf ein Paradoxon, denn wir haben vergessen, _was_ wir suchen, wir wissen nur noch, _dass_ wir es suchen. Beispielsweise kann Kreativität nicht direkt erlernt werden, Kreativitätstechniken können jedoch helfen, sie wieder zu entdecken. Und wer, um seine inneren Dämonen zu zähmen, seinen ersten Meditationskurs besucht, kann zu diesem Zeitpunkt unmöglich wissen, was Meditation wirklich ist, doch beharrliche Anwendung der Meditationstechnik ermöglicht vielleicht deren Erfahrung.
+
+Gerade anfangs läuft der Suchende jedoch Gefahr, die Technik mit der Essenz zu verwechseln und die Lösung mit dem denkenden Geist zu suchen, der jedoch zugleich Verursacher des Problems ist. Denn bevor Essenz nicht zumindest erahnt oder erfahren wird, mangelt es an Alternativen, und so gaukelt unser Denken uns Kontrolle vor und sagt: »Wenn Du die Technik nur gut genug beherrschst, dann bist du endlich am Ziel!« Der schlechte Lehrer wird seinen Schüler nun weiter zur Perfektion der Technik antreiben, der gute wird ihn daran erinnern, dass die Technik nur Mittel zum Zweck ist, eine Krücke oder ein »Ermöglicher«. Die Wahrheit enthüllt sich nämlich meist heimlich und unerwartet im Unterstrom der Anwendung – sie ist wie der Raum, der die Technik enthält, oder das weiße Papier, das die Buchstaben der Anleitung trägt.
+
+Notwendig aber nicht hinreichend würde der Mathematiker sagen. Die meisten Menschen auf der Suche nach ihrem wahren Wesen scheinen Techniken als Unterstützung auf ihrem Weg zu benötigen. Allerdings kann keine Technik einen Erfolg garantieren, denn letztendlich liegt die Verantwortung immer beim Anwender. Kein Lehrer dieser Welt kann seinen Schüler zum Glück zwingen, der jederzeit die Wahl hat, an der Technik anzuhaften und sich damit selbst die Erfahrung tieferer Dimensionen zu verschließen. So gesehen ist die Technik Segen und Fluch zugleich.
+
+[CAUTION]
+.Funktioniert nicht so gut
+====
+*Ich- und Du-Sätze*
+
+In einem Kommunikations-Workshop lernen die Teilnehmer, wie man emotionale Konflikte entschärft. Sie sollen in Sätzen, die mit »Ich ...« beginnen, ihre eigenen Gefühle auszudrücken, statt ihr Gegenüber in »Du ...«-Sätzen mit Beschuldigungen anzugreifen. Als die Runde sich nach einer Paarübung zum gemeinsamen Erfahrungsaustausch wieder zusammenfindet, beschwert sich eine der Teilnehmerinnen beim Trainer.
+
+»Die Methode funktioniert nicht. Wir haben uns genauso in die Haare gekriegt wie sonst auch.«
+
+»Was ist denn passiert?«
+
+»Ich habe Ich-Sätze gebildet, wie Sie es gesagt haben, und ausgedrückt, was ich fühle, und trotzdem hat er aggressiv reagiert.«
+
+»Wissen Sie noch, was genau Sie gesagt haben?«
+
+»Ich habe gesagt: ›Ich fühle, dass du ein Idiot bist.‹«
+====
+
+
+=== Körperbewusstsein *[0 %]*
+
+[NOTE]
+.Stichpunkte
+====
+* kommt jetzt etwas überraschend, da zuvor nicht erwähnt
+* gutes Körperbewusstsein ist jedoch unabdingbar für Integrität, bewusste Kommunikation und kreativen Ausdruck
+* daher sind alle Methoden, die das Körperbewusstsein schulen, extrem hilfreich
+* Beispiele: Alexander-Technik, Yoga, Feldenkrais, Aikido
+====
+
+==== Atem
+
+[NOTE]
+.Stichpunkte
+====
+* Es ist kein Zufall, dass so viele Methoden eine Atemschule enthalten.
+* Der Atem ist die erste Wahl, wenn es darum geht, das Körperbewusstsein zu verbessern und den eigenen Gefühlen auf die Spur zu kommen.
+====
+
+// ===========================================================================
+== Framework Ebene 2 *[1 %]* [[chap_ebene2]]
+// ===========================================================================
+
+Hat man sich einmal auf die Core-Commitments geeinigt, muss das gemeinsame Projekt mit Inhalt gefüllt werden. Unterschiedliche Unternehmungen erfordern nun unterschiedliche Vereinbarungen, die sich als zweite Ebene um den Kern herum gruppieren.
+
+[NOTE]
+.Stichpunkte
+====
+* Zweck: Kiste mit Bausteinen, aus der man sich, je nach Art der Unternehmung nur das nimmt, was einem nützlich erscheint
+* Welche »optionalen« Vereinbarungen sind nützlich für ein co-kreatives Unternehmen?
+* Wenn es um den Verkauf von Produkten oder Dienstleistungen geht: Wie wird die Kommunikation mit dem Kunden gestaltet? Sollen speziell Kunden angesprochen werden, die in Resonanz mit den Firmenprinzipien stehen? Gibt es eine Auswahlprozedur für Kunden?
+* Bedingungen für die Kooperation mit anderen Unternehmen, um zu verhindern, dass herkömmliche Arbeitsprinzipien in die eigene Arbeit »einsickern«
+====
+
+=== Gemeinnützigkeit *[0 %]*
+
+Viele existierende Unternehmen mit co-kreativen Arbeitsparadigmen verfolgen auch die Absicht der Gemeinnützigkeit. Das liegt vermutlich daran, dass es nur schwer möglich ist, die eigene Integrität zu erhalten, wenn man egoistische Ziele verfolgt.
+
+=== Nachhaltigkeit *[0 %]*
+
+Nachhaltigkeit ist eine Selbstverpflichtung, die sich ebenfalls nahezu automatisch ergibt, wenn sich co-kreative Menschen zusammenfinden.
+
+
+// ===========================================================================
+== Umsetzung *[0 %]* [[chap_umsetzung]]
+// ===========================================================================
+
+=== Methoden, die Co-Kreativität unterstützen können *[0 %]* [[sec_methods]]
+
+==== Aikido *[20 %]* [[sec_aikido]]
+
+[NOTE]
+.Stichpunkte
+====
+* nicht neu: Philosophien fernöstlicher Kampfkünste für Managementstrategien heranzuziehen
+** höchstes Ziel des Budo (»Weg des Krieges«): Siegen ohne zu kämpfen
+** das Einzigartige an Aikido: will weder kämpfen noch siegen (auch nicht verlieren)
+** müsste eigentlich »Nicht-Kampf-Kunst« heißen
+* Analogien zum bewussten Zuhören
+* »echtes« Aikido vs. Aikido-»Imitatoren«
+====
+
+Kämpfe in der Arbeitswelt kosten Energie, was wir bekanntlich verhindern wollen. Von allen Kampfkünsten ist Aikido die einzige, von der wir dies lernen können.
+
+Aikido ist die einzige Kampfkunst, die den Angreifer unverletzt lässt. Das wirklich Radikale an Aikido ist, dass es keinen Sieger und keinen Verlierer kennt. Der Aikidoka harmonisiert sich vollständig mit der Energie des Angreifers, lässt dessen Angriff störungsfrei durchfließen und leitet diese Energie auf eine Weise um, die Schaden für beide abwendet. Gewaltfreie Kommunikation auf körperlicher Ebene.
+
+Oft werde ich als Aikido-Lehrer gefragt, ob Aikido denn »auf der Straße« funktionieren würde. Meist antworte ich dann, dass man durch das Training irgendwann eine Präsenz ausstrahlt, die eventuelle Angreifer veranlasst, sich andere Opfer zu suchen.
+
+Das Netz ist voll von Argumenten und angeblichen Beweisen dafür, dass Aikido anderen Kampfkünsten unterlegen sei. Der grundsätzliche Denkfehler bei all diesen Diskussionen ist die Grundannahme der Kritiker, dass »funktionieren« bedeutet, dass der Angreifer besiegt werden muss. In diesem Sinne kann Aikido folglich nicht »funktionieren«.
+
+Leider können sich viele Menschen nicht einmal vorstellen, dass es Auseinandersetzungen geben kann, aus denen keine Sieger und Verlierer hervorgehen. Selbst vielen Aikido-Praktizierenden fällt dies schwer.
+
+Es ist nicht besonders schwer, jemanden mit einer Aikido-Technik zu verletzen. Es ist jedoch vollkommen unmöglich, jemanden mit Aikido zu verletzen. Aikido ist zwar aus anderen Budo-Disziplinen hervorgegangen, es hat von dort aber nur die Techniken übernommen. Aikido selbst ist __wesen__tlich neu.
+
+
+==== Gewaltfreie Kommunikation *[0 %]* [[sec_gfk]]
+
+[NOTE]
+.Bitte um Beiträge
+====
+* kurzer Überblick über die GfK
+* Beispiele, Praxiserfahrungen etc.
+====
+
+[NOTE]
+.Stichpunkte
+====
+* GfK ist keine Methode, um andere Menschen zu steuern, zu manipulieren oder in irgendeiner anderen Weise dazu zu bringen, das zu tun, was man gerne hätte. Wer anderes behauptet hat die GfK (nach Rosenberg) nicht oder falsch verstanden.
+====
+
+==== Meditation *[0 %]* [[sec_meditation]]
+
+[NOTE]
+.Stichpunkte
+====
+* Übt den Bewusstseinswechsel, der für Co-Kreativität erforderlich ist
+* Ist ein Wechsel vom eindimensionalen Verstandesbewusstsein zum »3-D-Bewusstsein«
+====
+
+
+=== Spezielle Themen
+
+==== Finanzielles
+
+[NOTE]
+.Bitte um Beiträge
+====
+* Wie entscheide ich, was mein eigener Beitrag zum Unternehmen wert ist?
+* Wie setze ich die Gehälter meiner Mitarbeiter fest?
+* Wie wird der Unternehmensgewinn aufgeteilt?
+* Beispiele, Praxiserfahrungen etc.
+====
+
+
+==== Skalierung
+
+[NOTE]
+.Bitte um Beiträge
+====
+* Wenn die Mitarbeiterzahl wächst, ist häufig ein Rückfall in »alte« Mechanismen zu beobachten. Was sind die Symptome und Ursachen, und wie kann man damit umgehen?
+* Welche Organisationsformen sind am besten dazu geeignet, um Co-Kreativität auch bei Wachstum zu ermöglichen?
+* Gibt es eine Obergrenze für die Mitarbeiterzahl?
+* Beispiele, Praxiserfahrungen etc.
+====
+
+
+// ===========================================================================
+// ===========================================================================
+// ===========================================================================
+
+[bibliography]
+= Literatur
+- [[[bigleap]]] Gay Hendricks. _The Big Leap_. HarperOne 2010
+
+[index]
+= Index
