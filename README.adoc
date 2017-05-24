@@ -136,6 +136,8 @@ Derzeitiger Stand: experimentell; Bitte um Feedback; fast alles kann sich noch �
 
 Derzeit kann das Buch nur online über GitHub gelesen werden: https://github.com/KlugB/OFCK/blob/master/OFCK.adoc
 
+Ein weniger schöner sieht das Buch aus, wenn man die https://chrome.google.com/webstore/detail/asciidoctorjs-live-previe/iaalpfgpbocpdfblpnhhgllgbdbchmia[Asciidoctor Chrome Extension] installiert und dann die »Raw«-Version des Dokuments wählt (Button oben rechts).
+
 Geplant: PDF, epub und, wer weiß, vielleicht ja auch irgendwann einmal eine Druckversion.
 
 == Lizenz
