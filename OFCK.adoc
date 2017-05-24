@@ -20,6 +20,16 @@
 :untitled-label: Ohne Titel
 :version-label: Version
 :warning-caption: Warnung
+ifndef::env-github[:icons: font]
+ifdef::env-github[]
+:status:
+:outfilesuffix: .adoc
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
 
 :sectnums!:
 [preface]

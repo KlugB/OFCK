@@ -4,6 +4,16 @@ Björn Klug <https://github.com/KlugB>
 :toc: left
 :toclevels: 4
 :toc-title: Inhalt
+ifndef::env-github[:icons: font]
+ifdef::env-github[]
+:status:
+:outfilesuffix: .adoc
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
 :uri-what-is-asciidoc: http://asciidoctor.org/docs/what-is-asciidoc
 
 == Überblick
