@@ -22,7 +22,8 @@ endif::[]
 
 Der Kern dieses Buches besteht aus Rahmenvereinbarungen, die Menschen mit sich selbst und miteinander treffen _müssen_, um den _Kontext_ eines co-kreativen Arbeitsumfeldes zu schaffen. Diese werden in die drei Bereiche *Integrität*, *bewusste Kommunikation* und *Kreativität* eingeordnet.
 
-.Ziele
+=== Ziele
+
 ****
 * Am Ende eines Arbeitstages mehr Energie haben als zu Beginn
 * Ein glückliches und erfülltes Arbeitsleben
@@ -55,10 +56,11 @@ Arbeit sollte Lust und nicht Last sein. Wir sollten mit der gleichen Freude zur 
 
 === Das Framework für Co-Kreativität
 
+[IMPORTANT]
 .Kernaussage
-****
+====
 Wenn Arbeit keine Freude (mehr) bereitet, dann ist die Ursache *zuerst* in der Verletzung von Commitments zu *Integrität*, *bewusster Kommunikation* und *Kreativität* zu suchen. Sie bilden die _notwendige_ Basis für _jeden_ Lösungsansatz, der _nachhaltig_ wirken soll.
-****
+====
 
 ==== Die Core-Commitments
 
@@ -136,7 +138,7 @@ Derzeitiger Stand: experimentell; Bitte um Feedback; fast alles kann sich noch �
 
 Derzeit kann das Buch nur online über GitHub gelesen werden: https://github.com/KlugB/OFCK/blob/master/OFCK.adoc
 
-Ein weniger schöner sieht das Buch aus, wenn man die https://chrome.google.com/webstore/detail/asciidoctorjs-live-previe/iaalpfgpbocpdfblpnhhgllgbdbchmia[Asciidoctor Chrome Extension] installiert und dann die »Raw«-Version des Dokuments wählt (Button oben rechts).
+Etwas schöner sieht es aus, wenn man die https://chrome.google.com/webstore/detail/asciidoctorjs-live-previe/iaalpfgpbocpdfblpnhhgllgbdbchmia[Asciidoctor Chrome Extension] installiert und dann die »Raw«-Version des Dokuments wählt (Button oben rechts).
 
 Geplant: PDF, epub und, wer weiß, vielleicht ja auch irgendwann einmal eine Druckversion.
 
