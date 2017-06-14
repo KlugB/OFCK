@@ -178,10 +178,10 @@ NOTE: ToDo: noch nicht rund...
 
 .Kernaussage dieses Buches
 ****
-Wenn Arbeit keine Freude (mehr) bereitet, dann ist die Ursache *zuerst* in der Verletzung von Commitments zu *Integrität*, *bewusster Kommunikation* und *Kreativität* zu suchen. Sie bilden die _notwendige_ Basis für _jeden_ Lösungsansatz, der _nachhaltig_ wirken soll.
+Wenn Arbeit keine Freude (mehr) bereitet und Energie zehrt statt spendet, dann ist die Ursache *zuerst* in der Verletzung von Commitments zu *Integrität*, *bewusster Kommunikation* und *Kreativität* zu suchen. Sie bilden die _notwendige_ Basis für _jeden_ Lösungsansatz, der _nachhaltig_ wirken soll.
 ****
 
-==== Erläuterungen
+==== Erläuterungen zu allen verwendeten Begriffen und Konzepten
 
 Dem ein oder anderen mögen die beschriebenen Prinzipien trivial erscheinen, doch sie werden leicht unterschätzt oder missverstanden. Daher widmet sich ein großer Teil dieses Buches mit der Beschreibung dieser _gemeinsamen Essenz aller Methoden_ aus möglichst vielen Blickwinkeln. Alle verwendeten Begriffe werden hier so genau wie möglich beschrieben, oder besser: umschrieben.
 
@@ -193,7 +193,7 @@ Die zweite Ebene des Frameworks wird nach und nach mit »optionalen Commitments�
 * Gemeinnützigkeit als Unternehmensziel
 * ...
 
-==== Umsetzung
+==== Möglichkeiten der Umsetzung
 
 Der letzte Teil widmet sich der praktischen Umsetzung von _Co-Kreativität_ und _Work-Life-Blending_:
 
@@ -208,7 +208,9 @@ Der letzte Teil widmet sich der praktischen Umsetzung von _Co-Kreativität_ und 
 == Die Core-Commitments des _Framework für Co-Kreativität_ [[chap_core]]
 // ===========================================================================
 
-Nachfolgend sind die Bedingungen für die Art von Zusammenarbeit aufgeführt, bei der ein Maximum der verfügbaren Energie in kreative Prozesse fließt und nur ein Minimum durch kommunikative Reibung verloren geht.
+Dieses Kapitel enthält die Bedingungen für die Art von Zusammenarbeit, bei der ein Maximum der verfügbaren Energie in kreative Prozesse fließt und nur ein Minimum durch kommunikative Reibung verloren geht.
+
+Die Core-Commitments wirken zwischen den kooperierenden Teilnehmern als Vertrag über den _Kontext_ der Zusammenarbeit, nicht über ihren Inhalt. _Wie_ zusammengearbeitet wird, ist das primäre Ziel der Unternehmung, das Produkt ist sekundär.
 
 .Commitment
 ****
@@ -235,13 +237,11 @@ Es handelt sich um eine Liste von Fähigkeiten, die gemeinhin unter die Kategori
 * *Bewusste Kommunikation*
 ** Bewusstes Zuhören
 ** Feedback geben und empfangen
-** Emotionale Transparenz
+** Transparenz
 ** Wertschätzung
 * *Kreativität*
 ** Genius
 ** Co-Kreativität
-
-Die Core-Commitments wirken zwischen den kooperierenden Teilnehmern als Vertrag über den _Kontext_ der Zusammenarbeit, nicht über ihren Inhalt. _Wie_ zusammengearbeitet wird, ist das primäre Ziel der Unternehmung, das Produkt ist sekundär.
 
 [IMPORTANT]
 ====
@@ -303,10 +303,11 @@ ____
 
 <<sec_feedback, Erläuterungen>>
 
-==== Emotionale Transparenz *[0 %]*
+==== Transparenz *[0 %]*
 
 [quote]
 ____
+. Ich verpflichte mich, die Wahrheit zu sagen und keine relevanten Wahrheiten zu verheimlichen
 . Ich sage zu, 100 % Verantwortung für meine Gefühle zu übernehmen.
 . Ich sage zu, meine Gefühle zu kennen und sie anderen gegenüber verständlich zu kommunizieren.
 ____
@@ -314,7 +315,7 @@ ____
 .ToDo
 NOTE: besser?
 
-<<sec_emotionaletransparenz, Erläuterungen>>
+<<sec_transparenz, Erläuterungen>>
 
 ==== Wertschätzung
 
@@ -382,7 +383,9 @@ Unbewusste Commitments sabotieren Beziehungen.
 ====
 *Lügen*
 
-Wenn wir jemanden belügen, verletzen wir unsere Integrität. Durch unsere Lüge erschaffen wir zwei Versionen unseres Selbst. Die erste Version kennt die Wahrheit, die zweite Version müssen wir nach außen hin präsentieren, um die Lüge aufrecht zu erhalten. Auf diese Weise sind wir nicht mehr unversehrt. Wir können allerdings jederzeit unsere Integrität wiederherstellen, indem wir die Wahrheit sagen und für alle Konsequenzen bereitwillig die Verantwortung übernehmen.
+Wenn wir jemanden belügen, verletzen wir unsere Integrität. Durch unsere Lüge erschaffen wir zwei Versionen unseres Selbst. Die erste Version kennt die Wahrheit, die zweite Version müssen wir nach außen hin präsentieren, um die Lüge aufrecht zu erhalten. Auf diese Weise sind wir nicht mehr unversehrt. Eine besondere Form der Lüge ist das Geheimnis. Geheimnisse machen krank. Je länger die Wahrheit unausgesprochen bleibt, umso stärker sind die gesundheitlichen Folgen, mit denen wir rechnen müssen.
+
+Wir können allerdings jederzeit unsere Integrität wiederherstellen, indem wir die Wahrheit sagen und für alle Konsequenzen bereitwillig die Verantwortung übernehmen.
 ====
 
 
@@ -411,12 +414,12 @@ Wenn wir jemanden belügen, verletzen wir unsere Integrität. Durch unsere Lüge
 ====
 
 
-==== Ver-Antwort-ung *[0 %]* [[sec_verantwortung]]
+==== Ver-Antwort-ung *[10 %]* [[sec_verantwortung]]
 
 [NOTE]
 .Stichpunkte
 ====
-* *nicht* Pflicht, Schuld, Last, kann nicht zugewiesen werden
+* *nicht* = Pflicht, Schuld, Last, kann nicht zugewiesen werden
 * beginnt erst, wenn sie übernommen wird, mit der Handlung, der Antwort
 * ist die Fähigkeit zu antworten (»response-ability«)
 * Gegenteil: Schuldzuweisung, Vorwürfe, Abwehrhaltung
@@ -453,8 +456,8 @@ Wenn wir jemanden belügen, verletzen wir unsere Integrität. Durch unsere Lüge
 .ToDo
 ====
 * weiter ausführen
-** urteilsfreies Zuhören
 * anschauliche Beispiele
+** urteilsfreies Zuhören muss mit leerem Geist in Präsenz stattfinden. Nicht mit Vergangenem hadern (ich hege einen Groll gegen meinen Gesprächspartner wegen etwas zuvor Geschehenem) oder in die Zukunft plant (schon nach einer Lösung suchen). Leerer Geist = vorurteilsfreie Haltung
 ====
 
 Echtes Zuhören eine seltene Kunst. Gemeinhin wird stattdessen der so genannte Meinungsaustausch gepflegt, was in der Regel bedeutet, dass nach dem Gespräch beide Partner mit ihren Meinungen wieder nach Hause gehen, ohne dass sich an selbigen irgend etwas verändert hätte. Der Preis, den wir dafür bezahlen: echte Beziehungen können so nicht zustande kommen. Authentische Beziehungen bedürfen bewusster Kommunikation, deren erste Voraussetzung die Fähigkeit zum Zuhören und nicht etwa die Fähigkeit zum präzisen und prägnanten Ausdruck ist. Bewusstes Zuhören in diesem Sinne findet auf 3 Ebenen statt:
@@ -523,25 +526,33 @@ NOTE: Artikel Kritik/Lob/Tadel einarbeiten.
 ===== Die Kunst, Feedback zu empfangen *[0 %]*
 
 
-==== Emotionale Transparenz *[5 %]* [[sec_emotionaletransparenz]]
+==== Transparenz *[5 %]* [[sec_transparenz]]
 
 [NOTE]
 .Stichpunkte
 ====
-* ist in der klassischen Arbeitswelt verpönt
-* erforderliche Fähigkeiten:
-** Gefühle im gegenwärtigen Moment erkennen und fühlen können
-** Gefühle zuverlässig voneinander unterscheiden können
-** zwischen der Erfahrung eines Gefühls und dessen Ausdruck unterscheiden können
-** Gefühle zu ihrer Quelle verfolgen können (auslösende Gedanken oder Ereignisse)
-** Gefühle verständlich kommunizieren können
-** _mit_ Gefühlen sein können, statt sie zu verleugnen oder durch Essen, Fernsehen o. andere Ablenkungen zu verdrängen
+* inhaltliche Transparenz
+** immer die Wahrheit sagen
+*** bedeutet nicht, auf Anfrage Geschäftsgeheimnisse zu verraten
+** keine relevanten Wahrheiten verschweigen
+*** »relevant«: Ich habe Geld des Unternehmens veruntreut (gegenüber Geschäftspartner)
+*** nicht »relevant«:
+* emotionale Transparenz
+** ist in der klassischen Arbeitswelt verpönt
+** erforderliche Fähigkeiten:
+*** Gefühle im gegenwärtigen Moment erkennen und fühlen können
+*** Gefühle zuverlässig voneinander unterscheiden können
+*** zwischen der Erfahrung eines Gefühls und dessen Ausdruck unterscheiden können
+*** Gefühle zu ihrer Quelle verfolgen können (auslösende Gedanken oder Ereignisse)
+*** Gefühle verständlich kommunizieren können
+*** _mit_ Gefühlen sein können, statt sie zu verleugnen oder durch Essen, Fernsehen o. andere Ablenkungen zu verdrängen
 ====
 
 
 ==== Das Gegenüber als Verbündeten sehen *[0 %]*
 
-NOTE: ToDo: ausführen. Parallele zu Harmonie und Unverletztheit im Aikido
+.ToDo
+NOTE: ausführen. Parallele zu Harmonie und Unverletztheit im Aikido
 
 
 === Kreativität *[10 %]* [[sec_kreativitaet]]
@@ -562,21 +573,36 @@ In seinem Buch _The Big Leap_ <<bigleap>> teilt Gay Hendricks unsere Begabungen 
 * Exzellenz
 * Genius
 
+
 ===== Inkompetenz
 
-.Merkmale
-* Fast jeder andere kann es besser als ich
-* fast immer negatives Feedback
-* kostet viel Energie und Zeitaufwand
-* kein Spaß
+Eine Tätigkeit fällt in den Bereich meiner Inkompetenz, wenn folgende Merkmale erfüllt sind:
+
+* Fast jeder andere könnte es besser als ich erledigen.
+* In der Regel bekomme ich negatives Feedback für die erzeugten Ergebnisse.
+* Im Verhältnis zum Nutzen kostet mich die Tätigkeit viel Energie und Zeit.
+* Die Tätigkeit macht mir keinen Spaß.
+
+.Steuererklärung
+====
+Frank hat große Probleme, die Erläuterungstexte seiner Steuersoftware zu verstehen und kann ohne Hilfe eines Dritten nicht entscheiden, welche Werte wo einzutragen sind. Schon das Sortieren der erforderlichen Belege kostet ihn viele Stunden. Regelmäßig schiebt er die Steuererklärung so weit wie möglich hinaus und muss deshalb oft Säumniszuschläge bezahlen. Geiz ist der einzige Grund, warum er sie immer noch selbst bearbeitet.
+
+Lösung: Frank sollte unbedingt einen Steuerberater beauftragen.
+====
 
 ===== Kompetenz
 
 .Merkmale
-* Andere können es genauso gut wie ich
-* Ich tue es gut, finde es aber nicht voll befriedigend
-* kostet Energie
-* kein Spaß
+* Die meisten anderen Menschen können die Tätigkeit ebenso gut wie ich erledigen.
+* Die erzielten Ergebnisse sind gut, befriedigen mich aber nicht.
+* Die Tätigkeit kostet mich Energie.
+* Die Tätigkeit bereitet mir keine Freude.
+
+.Steuererklärung
+====
+
+====
+
 
 ===== Exzellenz
 
@@ -586,6 +612,15 @@ In seinem Buch _The Big Leap_ <<bigleap>> teilt Gay Hendricks unsere Begabungen 
 * Energie bleibt gleich oder sinkt
 * evtl. Beigeschmack von „Betrug“
 * kaum Spaß
+
+.Steuererklärung
+====
+Max' Freundin hat unglücklicherweise in ihrem Freundeskreis verbreitet, wie toll er immer ihre Steuer mache und wie hoch ihre Rückerstattung jedes Jahr ist. Seitdem erhält er regelmäßig Anfragen, ob er das nicht auch für andere machen könne – natürlich nicht umsonst, sondern für eine Einladung zum Essen als Gegenleistung ...
+
+Lösung: Max sollte sich schnellstmöglich ein T-Shirt bedrucken lassen: »I won't do your taxes!«
+
+====
+
 
 ===== Genius
 
@@ -610,6 +645,13 @@ In seinem Buch _The Big Leap_ <<bigleap>> teilt Gay Hendricks unsere Begabungen 
 * geht nicht ums Rechthaben, um Macht
 * anderer Bewusstseinszustand, kein simples Anwenden von Techniken (ist wie wahre Liebe in Äußerlichkeiten zu suchen)
 
+
+.Steuererklärung
+====
+Jedes Jahr im Januar fragt Christina ungeduldig im Freundeskreis herum, wer bereits alle Belege zusammen hat, und für wen sie auch diesmal wieder die Steuererklärung erledigen darf.
+
+Lösung: Christina sollte unbedingt Steuerberaterin werden, wenn noch nicht geschehen.
+====
 
 ==== Co-Kreativität *[0 %]* [[sec_co-kreativitaet]]
 
@@ -662,6 +704,23 @@ In einem Kommunikations-Workshop lernen die Teilnehmer, wie man emotionale Konfl
 »Ich habe gesagt: ›Ich fühle, dass du ein Idiot bist.‹«
 ====
 
+==== Was bedeutet überhaupt »funktionieren«?
+
+[NOTE]
+.Stichpunkte
+====
+* Überall wird sich ausgiebig darum gestritten, ob eine Technik funktioniert oder nicht.
+* Beispiel Aikido in Kampfkunst-Foren.
+** Die meisten Anhänger anderer Kampfkünste behaupten, Aikido würde in realen Kampfsituationen nicht funktionieren.
+** Missverständnis: »funktionieren« = siegen. Unterschwellige Annahme: Es muss einen Sieger und einen Verlierer geben.
+** Aikido kennt aber keinen Sieger und keinen Verlierer.
+** Gedankenexperiment: Aikidoka meldet nimmt an einem MMA-Wettkampf teil. In dem Moment, in dem seine Absicht darin besteht zu siegen, kann er schon kein Aikido mehr machen. Er kann lediglich Aikido-_Techniken_ anwenden. Und die sind tatsächlich nur in ganz bestimmten Situationen für einen Machtkampf geeignet.
+** Kritiker weigern sich/sind nicht in der Lage, sich auch nur vorzustellen, dass Machtkampf optional ist – siegen ist gut, verlieren ist schlecht, also helfen nur Techniken, die einem zum Sieg verhelfen.
+* Beispiel GfK
+** Erwartung der Anwender der _Technik_: Ich kann den anderen dazu bringen, sich anders zu verhalten. Dann funktioniert die Technik.
+** Realität: Wir haben *null* Kontrolle über das Verhalten anderer. Wenn eine Technik funktioniert, dann nur aus Zufall, oder weil der andere sich hat manipulieren lassen. Damit haben wir aber eine authentische, bewusste Beziehung verhindert, und negative Nachwirkungen sind wahrscheinlich (wenn der andere z. B. die Manipulation nachträglich erkennt)
+====
+
 
 === Körperbewusstsein *[0 %]*
 
@@ -672,6 +731,7 @@ In einem Kommunikations-Workshop lernen die Teilnehmer, wie man emotionale Konfl
 * gutes Körperbewusstsein ist jedoch unabdingbar für Integrität, bewusste Kommunikation und kreativen Ausdruck
 * daher sind alle Methoden, die das Körperbewusstsein schulen, extrem hilfreich
 * Beispiele: Alexander-Technik, Yoga, Feldenkrais, Aikido
+* Für echte Persönlichkeitsentwicklung mit nachhaltiger Wirkung und __wesen__tlichen Veränderungen darf Lernen nicht nur auf intellektueller Ebene stattfinden, sondern muss durch Ganzkörpererfahrung integriert werden.
 ====
 
 ==== Atem
@@ -715,28 +775,71 @@ Nachhaltigkeit ist eine Selbstverpflichtung, die sich ebenfalls nahezu automatis
 
 ==== Aikido *[20 %]* [[sec_aikido]]
 
+Die Idee, sich in Kommunikation und Management bei den Philosophien fernöstlicher Kampfkünste zu bedienen, ist nicht neu und erfreut sich zunehmender Beliebtheit. Da gibt es kämpferische Ansätze, die vor allem darauf abzielen, seinen Gegner möglichst effizient zu besiegen. Daneben existieren Lehren, die eher friedvollere Lösungen zur Konfliktlösung verfolgen. Im _Budo_ (Oberbegriff aller japanischen Kampfkünste) erkennt man die spirituelle Ausrichtung dieser Disziplinen daran, dass sie mit »-do« (»der Weg«) enden und zusätzlich zur Kampftechnik auch eine innere Lehre besitzen.
+
+Doch obwohl Aikido seine Wurzeln ebenfalls im _Budo_ hat, unterscheidet sich seine Philosophie radikal von denen seiner Geschwister. Denn selbst in den friedvollsten Kampfkünsten, in denen der höchste Grad an Perfektion erreicht ist, wenn man ohne Kampf gewinnen kann, steht doch letztendlich immer noch das Gewinnen im Vordergrund. Aikido hingegen verlässt das Paradigma von Sieg und Niederlage vollkommen.
+
+===== Der Gründer von Aikido
+
+Aikido ist eine vergleichsweise junge japanische Kampfkunst, die aus traditionellem Jūjutsu und Schwertkampf hervorgegangen und von buddhistisch-shintoistischen Prinzipien durchdrungen ist. Ihr Gründer, Morihei Ueshiba, hat von 1883 bis 1969 gelebt und war der größte Kampfkünstler seiner Zeit, wenn nicht sogar aller Zeiten. Er wurde oft von Meistern verschiedenster Herkunft herausgefordert, konnte aber zeitlebens von keinem bezwungen werden.
+
+Als junger Mann arbeitete er zunächst als Ausbilder in der japanischen Armee und leitete danach eine Gruppe von Pionieren an, um unter widrigsten Bedingungen eine Siedlung auf der Insel Hokkaido aufzubauen, wo er auch seine Kampfkunst perfektionierte. Erst nach dieser Zeit, zur Mitte seines Lebens hin, begann er, seine friedvolle Version des _Budo_ (»Weg des Krieges«) zu entwickeln.
+
+Was Ueshiba so aussergewöhnlich macht, ist seine Transformation von einem modernen Samurai, der durchaus in der Lage und bereit dazu war, Gewalt anzuwenden und sogar zu töten, hin zu einem Krieger, der die erste Kampfkunst entwickelt hat, in der Gewalt nicht mit Gegengewalt beantwortet wird.
+
+===== Aikido sieht den Gegner als Verbündeten
+
+Das Außergewöhnliche an Aikido ist nun, dass es weder Sieger noch Verlierer kennt. Streng genommen müsste man es deshalb eigentlich »Nicht-Kampf-Kunst« nennen. Die Entstehung eines Kampfes steht von vornherein außer Frage, weil der Aikidoka seinen Angreifer nicht als Gegner, sondern als Verbündeten sieht. Seine Absicht ist es nicht nur, den Angreifer unverletzt zu lassen, sondern sogar ihn zu schützen. Aikido ist gewaltfreie Kommunikation auf körperlicher Ebene.
+
+Das ist ein erstaunliches Konzept, das sogar für viele Aikidoka nur schwer in den Kopf zu bekommen ist. Und doch ist es genau diese scheinbar verrückte Haltung, die Co-Kreativität erst möglich macht.
+
+Da kommt also jemand und will mir Gewalt antun, und ich soll bei meiner Reaktion auch noch darauf achten, dass ich ihn nicht verletze? Geht's noch? Um zu verstehen, warum das besser ist als die Unterwerfung des Gegners, sehen wir uns einmal verschiedene Aspekte einer Aikido-Technik an.
+
+===== Grundsätzlicher Ablauf einer Aikido-Technik
+
+Alles beginnt mit einem Angriff, z. B. einem Stoß, Schlag, Hieb oder Griff. In genau dem Moment, in dem der Angreifer zu seinem Angriff ansetzt, harmonisiert sich der Aikidoka mit dessen Bewegung (_Ai_=Harmonie), lenkt die Angriffsenergie in eine kreis- oder spiralförmige Bewegung, um sie dem Angreifer in Form eines Wurfes oder einer Haltetechnik zurückzugeben. Der Aikidoka _kontrolliert_ zwar in jeder Phase die Bewegung, ohne jedoch den Angreifer zu _dominieren_. Die Reaktion des Aikidoka ist so dosiert, dass Schaden weder für ihn noch für den Angreifer entsteht.
+
+===== Kein Widerstand
+
+Ein Angreifer, der einen erfahrenen Aikidoka angreift, hat das Gefühl, mit seinem Schlag, Stoß oder Hieb in ein Vakuum zu fallen. Er spürt keinen Widerstand und hat den Eindruck, dass seine eigene Angriffsenergie ihn zu Boden reißt.
+
+[quote, Byron Katie]
+____
+Widerstand ist die erste Handlung des Krieges
+____
+
+Wie sich das in einer verbalen Auseinandersetzung anfühlt, haben wir alle schon einmal in irgendeiner Form erlebt. Vielleicht haben wir jemandem gesagt, er solle nicht so eine Flappe ziehen, und dann stellte sich heraus, dass seine Tochter gerade gestorben ist. Oder wir machen unseren Lebenspartner zur Schnecke weil er – wieder einmal – viel später als erwartet nach Hause kommt, um dann zu erfahren, dass er im Stau steckte, nachdem er einen Verlobungsring besorgt hat. Oder stell dir vor, was wohl passieren würde, wenn du dem Dalai Lama eine vulgäre Beleidigung ins Gesicht sagen würdest.
+
+Aikido wirkt ähnlich auf verbale Angreifer. Auf einmal sind all unsere guten Argumente null und nichtig, unser »berechtigter« Ärger verpufft und wir fühlen uns vollkommen entwaffnet.
+
+IMPORTANT: Aikido ändert den _Kontext_ eines Konfliktes vom Machtkampf zur Co-Kreativität.
+
+Allgemein wird angenommen, dass ein Krieg mit einer aggressiven Handlung beginnt. Tatsächlich braucht man jedoch zwei Parteien, um einen Krieg zu führen. Daraus ergibt sich ziemlich offensichtlich, dass ein Krieg erst dann beginnen kann, wenn der Angegriffene seinerseits gewalttätig handelt.
+
+
+===== Aikido und Zuhören
+
+Für eine erfolgreiche Technik ist es wichtig, dass der Aikidoka sein Zentrum mit dem Zentrum seines Angreifers »verschmilzt«, um sich vollkommen mit der Bewegung des Gegenübers harmonisieren zu können. Um eine konfrontative Situation zu vermeiden, muss er sich sozusagen in den Anderen hineinversetzen, seinen Blickwinkel einnehmen und seine Sichtweise verstehen. In einigen Aikido-Techniken ist dies sogar physisch der Fall, wenn für einen Moment lang beide mit exakt derselben Körperhaltung parallel nebeneinander stehen.
+
+Für den Aikidoka ist es daher überlebenswichtig, dass er in jeder Phase seiner Technik mit allen verfügbaren Sinnen »zuhört«. Um die Harmonie mit seinem Angreifer herzustellen und aufrecht zu erhalten, ist er vollauf mit der Verarbeitung von visuellen, auditiven und  somatosensorischen Wahrnehmungen beschäftigt. Er riskierte sein Leben, würde er mit eventuell begangenen Fehlern hadern oder versuchen, seine Technik vorauszuplanen. Deshalb versucht er stets einen »leeren Geist« beizubehalten. Dazu muss er vollkommen präsent, also mit seinem Bewusstein in der Gegenwart sein.
+
+Dieser leere Geist entspricht beim kommunikativen <<sec_zuhoeren,Zuhören>> einer vorurteilsfreien Haltung.
+
+
+===== Aikido und Energie
+
+Aikido ist Energieeffizienz in ihrer höchsten Form. Wer einmal ein Aikido-Training beobachtet, wird feststellen, dass die Angreifer ziemlich schnell außer Atem und ins Schwitzen geraten, während den Verteidigern kaum Anstrengung anzusehen ist. Dies liegt daran, dass der Aikidoka keinerlei Energie in den Machtkampf investiert und für seine Technik im Wesentlichen die Energie des Angreifers nutzt.
+
 [NOTE]
 .Stichpunkte
 ====
-* nicht neu: Philosophien fernöstlicher Kampfkünste für Managementstrategien heranzuziehen
-** höchstes Ziel des Budo (»Weg des Krieges«): Siegen ohne zu kämpfen
-** das Einzigartige an Aikido: will weder kämpfen noch siegen (auch nicht verlieren)
-** müsste eigentlich »Nicht-Kampf-Kunst« heißen
-* Analogien zum bewussten Zuhören
-* »echtes« Aikido vs. Aikido-»Imitatoren«
+* Aikido und Wertschätzung: ist durch die Absicht, den Gegner zu schützen bereits impliziert. Aikido bezieht klar Stellung gegen die gewalttätige Handlung, aber NICHT gegen die Person. Es wird wertschätzendes Feedback gegeben.
+** Eine Aikido-Technik schmerzt nur, wenn man sich gegen sie wehrt
+** Es ist nicht besonders schwer, jemanden mit einer Aikido-Technik zu verletzen. Es ist jedoch vollkommen unmöglich, jemanden mit Aikido zu verletzen.
+* Integrität ist ein Aspekt von Ki
+* Technik vs. Aikido, »echtes« Aikido vs. Aikido-»Imitatoren«
 ====
 
-Kämpfe in der Arbeitswelt kosten Energie, was wir bekanntlich verhindern wollen. Von allen Kampfkünsten ist Aikido die einzige, von der wir dies lernen können.
-
-Aikido ist die einzige Kampfkunst, die den Angreifer unverletzt lässt. Das wirklich Radikale an Aikido ist, dass es keinen Sieger und keinen Verlierer kennt. Der Aikidoka harmonisiert sich vollständig mit der Energie des Angreifers, lässt dessen Angriff störungsfrei durchfließen und leitet diese Energie auf eine Weise um, die Schaden für beide abwendet. Gewaltfreie Kommunikation auf körperlicher Ebene.
-
-Oft werde ich als Aikido-Lehrer gefragt, ob Aikido denn »auf der Straße« funktionieren würde. Meist antworte ich dann, dass man durch das Training irgendwann eine Präsenz ausstrahlt, die eventuelle Angreifer veranlasst, sich andere Opfer zu suchen.
-
-Das Netz ist voll von Argumenten und angeblichen Beweisen dafür, dass Aikido anderen Kampfkünsten unterlegen sei. Der grundsätzliche Denkfehler bei all diesen Diskussionen ist die Grundannahme der Kritiker, dass »funktionieren« bedeutet, dass der Angreifer besiegt werden muss. In diesem Sinne kann Aikido folglich nicht »funktionieren«.
-
-Leider können sich viele Menschen nicht einmal vorstellen, dass es Auseinandersetzungen geben kann, aus denen keine Sieger und Verlierer hervorgehen. Selbst vielen Aikido-Praktizierenden fällt dies schwer.
-
-Es ist nicht besonders schwer, jemanden mit einer Aikido-Technik zu verletzen. Es ist jedoch vollkommen unmöglich, jemanden mit Aikido zu verletzen. Aikido ist zwar aus anderen Budo-Disziplinen hervorgegangen, es hat von dort aber nur die Techniken übernommen. Aikido selbst ist __wesen__tlich neu.
 
 
 ==== Gewaltfreie Kommunikation *[0 %]* [[sec_gfk]]
@@ -797,6 +900,7 @@ Es ist nicht besonders schwer, jemanden mit einer Aikido-Technik zu verletzen. E
 [bibliography]
 = Literatur
 - [[[bigleap]]] Gay Hendricks. _The Big Leap_. HarperOne 2010
+- [[[leonard]]] George Leonard _The Way of Aikido_. Plume 2000
 
 [index]
 = Index
