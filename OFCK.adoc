@@ -234,10 +234,10 @@ Die Rahmenvereinbarungen, die Menschen mit sich selbst und miteinander treffen m
 * *Integrität*
 ** Makellose Vereinbarungen
 ** gesunde Verantwortung
+** Transparenz
 * *Bewusste Kommunikation*
 ** Bewusstes Zuhören
 ** Feedback geben und empfangen
-** Transparenz
 ** Wertschätzung
 * *Kreativität*
 ** Genius
@@ -286,6 +286,20 @@ ____
 
 <<sec_verantwortung, Erläuterungen>>
 
+==== Transparenz *[50 %]*
+
+[quote]
+____
+. Ich verpflichte mich, die Wahrheit zu sagen und keine relevanten Wahrheiten zu verheimlichen
+. Ich sage zu, 100 % Verantwortung für meine Gefühle zu übernehmen.
+. Ich sage zu, meine Gefühle zu kennen und sie anderen gegenüber verständlich zu kommunizieren.
+____
+
+.ToDo
+NOTE: brauchen evtl. noch Feinschliff
+
+<<sec_transparenz, Erläuterungen>>
+
 === Bewusste Kommunikation
 
 ==== Bewusstes Zuhören
@@ -310,20 +324,6 @@ ____
 ____
 
 <<sec_feedback, Erläuterungen>>
-
-==== Transparenz *[50 %]*
-
-[quote]
-____
-. Ich verpflichte mich, die Wahrheit zu sagen und keine relevanten Wahrheiten zu verheimlichen
-. Ich sage zu, 100 % Verantwortung für meine Gefühle zu übernehmen.
-. Ich sage zu, meine Gefühle zu kennen und sie anderen gegenüber verständlich zu kommunizieren.
-____
-
-.ToDo
-NOTE: besser?
-
-<<sec_transparenz, Erläuterungen>>
 
 ==== Wertschätzung
 
@@ -350,14 +350,18 @@ ____
 == Erläuterungen [[chap_erlaeuterungen]]
 // ===========================================================================
 
-Um den vollen Wert des Frameworks auszuschöpfen, bedarf es einiger Erläuterungen, denn weil jeder Mensch Worte unterschiedlich interpretiert, sind Missverständnisse unvermeidlich. Jeder pickt sich aufgrund seiner persönlichen Erfahrungen aus dem Bedeutungshof eines Wortes seine persönliche Bedeutung heraus. Einige Beispiele:
+Sprache ist ein tückisch Ding. Missverständnisse sind vorprogrammiert, vor allem wenn wir uns auf dem Feld zwischenmenschlicher Beziehungen bewegen. Jeder interpretiert Worte unterschiedlich und pickt sich aufgrund seiner persönlichen Erfahrungen aus dem Bedeutungshof eines Wortes seine persönliche Bedeutung heraus.
 
-* *Verantwortung*: Erfahrungsgemäß assoziieren die meisten damit Worte wie Schuld, Last oder Pflicht. In unserem Kontext ist jedoch eine Verantwortung gemeint, die das Leben leichter und nicht schwerer macht.
-* *Integrität*: Den Ehepartner nicht betrügen, nicht stehlen und immer seine Steuern zahlen ist schon mal nicht schlecht, aber wenn die dahinter stehende Motivation nur die Angst vor Strafe ist, dann sind wir von wahrer Integrität noch weit entfernt.
-* *Zuhören*: Manch einer mag glauben, dass nichts zu sagen bereits ausreicht, um jemandem zuzuhören. Bewusstes Zuhören erfordert hingegen eine radikal neue Grundhaltung dem Sprecher gegenüber – urteilsfrei, empathisch, zugewandt und authentisch.
+.Mögliche Missverständnisse
+====
+*Verantwortung*: Erfahrungsgemäß assoziieren die meisten damit Worte wie Schuld, Last oder Pflicht. In unserem Kontext ist jedoch eine Verantwortung gemeint, die das Leben leichter und nicht schwerer macht.
 
-Dieses Kapitel widmet sich der Minimierung derartiger Missverständnisse, indem es alle Schlüsselbegriffe in so vielen Facetten wie möglich  __um__schreibt.
+*Integrität*: Den Ehepartner nicht betrügen, nicht stehlen und immer seine Steuern zahlen ist schon mal nicht schlecht, aber wenn die dahinter stehende Motivation nur die Angst vor Strafe ist, dann sind wir von wahrer Integrität noch weit entfernt.
 
+*Zuhören*: Manch einer mag glauben, dass nichts zu sagen bereits ausreicht, um jemandem zuzuhören. Bewusstes Zuhören erfordert hingegen eine radikal neue Grundhaltung dem Sprecher gegenüber – urteilsfrei, empathisch, zugewandt und authentisch.
+====
+
+Um den vollen Wert des Frameworks auszuschöpfen, sind daher zusätzliche Erläuterungen erforderlich. Dieses Kapitel widmet sich deshalb der Minimierung derartiger Missverständnisse, indem es alle Schlüsselbegriffe in so vielen Facetten wie möglich  __um__schreibt.
 
 === Commitment *[10 %]* [[sec_commitment]]
 
@@ -387,17 +391,6 @@ Allerdings sind Commitments auch nicht als Verträge mit ewiger Bindung zu betra
 * »Unversehrtheit«
 * ≠ Moral
 * Denken und Handeln ist im Einklang
-====
-
-
-[CAUTION]
-.Funktioniert nicht so gut
-====
-*Lügen*
-
-Wenn wir jemanden belügen, verletzen wir unsere Integrität. Durch unsere Lüge erschaffen wir zwei Versionen unseres Selbst. Die erste Version kennt die Wahrheit, die zweite Version müssen wir nach außen hin präsentieren, um die Lüge aufrecht zu erhalten. Auf diese Weise sind wir nicht mehr unversehrt. Eine besondere Form der Lüge ist das Geheimnis. Geheimnisse machen krank. Je länger die Wahrheit unausgesprochen bleibt, umso stärker sind die gesundheitlichen Folgen, mit denen wir rechnen müssen.
-
-Wir können allerdings jederzeit unsere Integrität wiederherstellen, indem wir die Wahrheit sagen und für alle Konsequenzen bereitwillig die Verantwortung übernehmen.
 ====
 
 
@@ -448,6 +441,54 @@ Wir können allerdings jederzeit unsere Integrität wiederherstellen, indem wir 
 * ist nicht möglich, solange man sich seinen automatischen Reaktionen hingibt (Wutausbruch, Wettrennen um die Opferrolle o. Ä.)
 ====
 
+
+==== Transparenz *[5 %]* [[sec_transparenz]]
+
+===== Inhaltliche Transparenz
+
+[NOTE]
+.Stichpunkte
+====
+* immer die Wahrheit sagen
+** bedeutet nicht, auf Anfrage Geschäftsgeheimnisse zu verraten
+* keine relevanten Wahrheiten verschweigen
+** »relevant«: Ich habe Geld des Unternehmens veruntreut (gegenüber Geschäftspartner)
+** nicht »relevant«:
+====
+
+[CAUTION]
+.Funktioniert nicht so gut
+====
+*Lügen*
+
+Wenn wir jemanden belügen, verletzen wir unsere Integrität. Durch unsere Lüge erschaffen wir zwei Versionen unseres Selbst. Die erste Version kennt die Wahrheit, die zweite Version müssen wir nach außen hin präsentieren, um die Lüge aufrecht zu erhalten. Auf diese Weise sind wir nicht mehr unversehrt. Eine besondere Form der Lüge ist das Geheimnis. Geheimnisse machen krank. Je länger die Wahrheit unausgesprochen bleibt, umso stärker sind die gesundheitlichen Folgen, mit denen wir rechnen müssen.
+
+Wir können allerdings jederzeit unsere Integrität wiederherstellen, indem wir die Wahrheit sagen und für alle Konsequenzen bereitwillig die Verantwortung übernehmen.
+====
+
+===== Emotionale Transparenz
+
+[NOTE]
+.Stichpunkte
+====
+* ist in der klassischen Arbeitswelt verpönt
+* erforderliche Fähigkeiten:
+** Gefühle im gegenwärtigen Moment erkennen und fühlen können
+** Gefühle zuverlässig voneinander unterscheiden können
+** zwischen der Erfahrung eines Gefühls und dessen Ausdruck unterscheiden können
+** Gefühle zu ihrer Quelle verfolgen können (auslösende Gedanken oder Ereignisse)
+** Gefühle verständlich kommunizieren können
+** _mit_ Gefühlen sein können, statt sie zu verleugnen oder durch Essen, Fernsehen o. andere Ablenkungen zu verdrängen
+====
+
+===== Verantwortung für die eigenen Gefühle
+
+[CAUTION]
+.Funktioniert nicht so gut
+====
+*»Ich habe ein Recht auf meinen Ärger!«*
+
+====
 
 === Bewusste Kommunikation *[0 %]* [[sec_kommunikation]]
 
@@ -537,29 +578,6 @@ NOTE: Artikel Kritik/Lob/Tadel einarbeiten.
 
 
 ===== Die Kunst, Feedback zu empfangen *[0 %]*
-
-
-==== Transparenz *[5 %]* [[sec_transparenz]]
-
-[NOTE]
-.Stichpunkte
-====
-* inhaltliche Transparenz
-** immer die Wahrheit sagen
-*** bedeutet nicht, auf Anfrage Geschäftsgeheimnisse zu verraten
-** keine relevanten Wahrheiten verschweigen
-*** »relevant«: Ich habe Geld des Unternehmens veruntreut (gegenüber Geschäftspartner)
-*** nicht »relevant«:
-* emotionale Transparenz
-** ist in der klassischen Arbeitswelt verpönt
-** erforderliche Fähigkeiten:
-*** Gefühle im gegenwärtigen Moment erkennen und fühlen können
-*** Gefühle zuverlässig voneinander unterscheiden können
-*** zwischen der Erfahrung eines Gefühls und dessen Ausdruck unterscheiden können
-*** Gefühle zu ihrer Quelle verfolgen können (auslösende Gedanken oder Ereignisse)
-*** Gefühle verständlich kommunizieren können
-*** _mit_ Gefühlen sein können, statt sie zu verleugnen oder durch Essen, Fernsehen o. andere Ablenkungen zu verdrängen
-====
 
 
 ==== Das Gegenüber als Verbündeten sehen *[0 %]*
@@ -784,7 +802,7 @@ Nachhaltigkeit ist eine Selbstverpflichtung, die sich ebenfalls nahezu automatis
 == Umsetzung *[0 %]* [[chap_umsetzung]]
 // ===========================================================================
 
-=== Methoden, die Co-Kreativität unterstützen können *[0 %]* [[sec_methods]]
+=== Methoden, die Co-Kreativität unterstützen *[0 %]* [[sec_methods]]
 
 ==== Aikido *[20 %]* [[sec_aikido]]
 
