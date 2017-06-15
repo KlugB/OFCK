@@ -208,9 +208,7 @@ Der letzte Teil widmet sich der praktischen Umsetzung von _Co-Kreativität_ und 
 == Die Core-Commitments des _Framework für Co-Kreativität_ [[chap_core]]
 // ===========================================================================
 
-Dieses Kapitel enthält die Bedingungen für die Art von Zusammenarbeit, bei der ein Maximum der verfügbaren Energie in kreative Prozesse fließt und nur ein Minimum durch kommunikative Reibung verloren geht.
-
-Die Core-Commitments wirken zwischen den kooperierenden Teilnehmern als Vertrag über den _Kontext_ der Zusammenarbeit, nicht über ihren Inhalt. _Wie_ zusammengearbeitet wird, ist das primäre Ziel der Unternehmung, das Produkt ist sekundär.
+Wir wollen eine Form der Zusammenarbeit erreichen, bei der ein Maximum unserer verfügbaren Energie in kreative Prozesse fließt und nur ein Minimum durch kommunikative Reibung verloren geht. Um dies zu ermöglichen, müssen sich alle Beteiligten bewusst auf einen _Kontext_ für eine solche Kooperation einigen. Über die in diesem Kapitel aufgeführten _Commitments_ schließen sie eine Art »Vertrag« darüber, _wie_ sie zusammenarbeiten wollen.
 
 .Commitment
 ****
@@ -226,10 +224,12 @@ Hier ist wichtig, dass nicht eine Art Vertrag mit einer außenstehenden Partei i
 Ein _Commitment_ ist also eine _aufrichtige Zusage, sich etwas engagiert zu verpflichten_.
 ****
 
-Es handelt sich um eine Liste von Fähigkeiten, die gemeinhin unter die Kategorie der »Soft Skills« gezählt werden. Das heißt jedoch nicht, dass alle Beteiligte perfekt in der Anwendung dieser Fähigkeiten sein müssen – das wäre für die allermeisten eine unerfüllbare Forderung. Viel wichtiger ist das Vorhandensein des _Commitments_ zu jeder dieser Eigenschaften. Deshalb ist jeder Punkt mit einem vorangestellten »Ich sage aufrichtig zu, ...«, »Ich engagiere mich dafür, ...« oder »Ich verpflichte mich, ...« zu lesen.
+Optimalerweise stellen sie diesen Rahmen her, _bevor_ sie sich den inhaltlichen Fragen ihrer Unternehmung zuwenden, um der Entstehung von Verstrickungen vorzubeugen, die später zu Energieverlusten führen.
 
 :sectnums!:
 === Die Core-Commitments [[sec_corecommitments]]
+
+Die Rahmenvereinbarungen, die Menschen mit sich selbst und miteinander treffen müssen, um den Kontext eines co-kreativen Arbeitsumfeldes zu schaffen, umfassen die Bereiche:
 
 * *Integrität*
 ** Makellose Vereinbarungen
@@ -243,6 +243,12 @@ Es handelt sich um eine Liste von Fähigkeiten, die gemeinhin unter die Kategori
 ** Genius
 ** Co-Kreativität
 
+Dies sind im Wesentlichen Eigenschaften, die gemeinhin als soziale Kompetenzen oder auch »Soft Skills« gelten. Hier sind allerdings weniger erlernbare <<sec_technik, Techniken>> gemeint, sondern ein radikaler Wechsel der eigenen Grundhaltung. Techniken können uns zwar dabei behilflich sein, um zu dieser Grundhaltung zu gelangen, diese aber nicht ersetzen.
+
+Das bedeutet im Umkehrschluss auch, dass nicht alle Beteiligte perfekt in der Anwendung dieser Fähigkeiten sein müssen – das wäre eine praktisch unerfüllbare Forderung. Viel wichtiger ist das Vorhandensein des <<sec_commitment, Commitments>> zu jeder dieser Eigenschaften. Deshalb ist jeder Punkt mit einem vorangestellten »Ich sage aufrichtig zu, ...«, »Ich engagiere mich dafür, ...« oder »Ich verpflichte mich, ...« versehen.
+
+Natürlich sind diese Selbstverpflichtungen nicht als Vertrag im juristischen Sinne zu sehen. Das Framework ist nicht als Korsett gedacht, alle Teilnehmer auf die Regeln einer naive Sozialutopie einzuschwören. Angenommen, ein Teammitglied lässt sich doch einmal dazu hinreißen, mit wüsten Beschuldigungen um sich zu werfen, statt wertschätzend die Lösung des Problems im Auge zu behalten. Dann wird es vom restlichen Team nicht gleich verklagt, sondern höchstens freundlich an das Commitment zur bewussten Kommunikation erinnert, sobald der Ärger abgeklungen ist. Dies gibt ihm dann die Möglichkeit, sein Commitment zu erneuern – oder auch nicht.
+
 [IMPORTANT]
 ====
 Für co-kreative Zusammenarbeit ohne Energieverluste ist jede einzelne dieser Zusagen _notwendig_.
@@ -252,7 +258,9 @@ Wird mindestens eines dieser Commitments nicht aufrichtig eingegangen, treten  _
 Umgekehrt bedeutet das Auftreten von Energieverlusten, dass mindestens eines dieser Commitments brüchig ist.
 ====
 
-Optimalerweise sollte dieser kontextuelle Rahmen hergestellt werden, _bevor_ man sich mit den inhaltlichen Fragen einer Unternehmung beschäftigt, um der Entstehung von Verstrickungen vorzubeugen, die später zu Energieverlusten führen.
+Das Framework wirkt wie ein geschütztes Behältnis für Co-Kreativität. Jedes verletzte Commitment wirkt wie ein Leck, durch das Energie abfließt. Ein solcher Energieverlust ist für alle, die dieses Behältnis halten, unmittelbar spürbar, und jeder einzelne ist dann aufgerufen, Verantwortung für das Abdichten dieses Lecks zu übernehmen.
+
+Hier nun also die Commitments im Einzelnen:
 
 :sectnums:
 === Integrität
@@ -286,7 +294,7 @@ ____
 ____
 Ich sage zu, auf den drei Ebenen Inhalt, Empathie und Co-Kreativität bewusst zuzuhören.
 
-. Ich engagiere mich dafür, das Gesprochene inhaltlich vollständig zu erfassen und wiedergeben zu können
+. Ich engagiere mich dafür, das Gesprochene inhaltlich vollständig zu erfassen und wiedergeben zu können.
 . Ich engagiere mich dafür, empathisch zuzuhören und die Gefühle und Emotionen meines Gegenübers zu erfassen.
 . Ich engagiere mich dafür, zu hören, was mein Gegenüber wirklich will.
 ____
@@ -303,7 +311,7 @@ ____
 
 <<sec_feedback, Erläuterungen>>
 
-==== Transparenz *[0 %]*
+==== Transparenz *[50 %]*
 
 [quote]
 ____
@@ -331,7 +339,8 @@ ____
 
 [quote]
 ____
-. Ich sage zu, meine einzigartigen Genius-Qualitäten zu kennen, zu fördern und auszudrücken.
+. Ich sage zu, meine einzigartigen Genius-Qualitäten zu kennen, zu fördern und kreativ auszudrücken.
+. Ich sage zu, andere in ihrem kreativen Ausdruck zu unterstützen.
 . Ich engagiere mich für die Förderung von Co-Kreativität, wo immer möglich.
 ____
 
@@ -350,7 +359,7 @@ Um den vollen Wert des Frameworks auszuschöpfen, bedarf es einiger Erläuterung
 Dieses Kapitel widmet sich der Minimierung derartiger Missverständnisse, indem es alle Schlüsselbegriffe in so vielen Facetten wie möglich  __um__schreibt.
 
 
-=== Commitment *[10 %]*
+=== Commitment *[10 %]* [[sec_commitment]]
 
 [CAUTION]
 .Funktioniert nicht so gut
@@ -366,6 +375,9 @@ Erst wenn beide die volle Verantwortung für ihren Anteil an ihren Differenzen �
 Unbewusste Commitments sabotieren Beziehungen.
 ====
 
+Das Gegenstück zum bewussten Commitment ist das Lippenbekenntnis. Sagen wir, mein unkontrollierter Verzehr von Süßigkeiten hat mir über die Jahre eine nette kleine Wohlstandswampe beschert, und ich will nun wieder abnehmen. Wenn ich nun sage: »Ich verzichte künftig auf den übermäßigen Verzehr von Zucker«, und fünf Minuten später finde ich mich mit 2 Stücken Sahnetorte vor dem Kühlschrank wieder, dann kann ich davon ausgehen, dass mein Commitment nur ein Lippenbekenntnis war.
+
+Allerdings sind Commitments auch nicht als Verträge mit ewiger Bindung zu betrachten. Wenn wir uns entscheiden, Verhaltensmuster zu ändern, die wir uns über Jahrzehnte hinweg angewöhnt und verfestigt haben, dann ist kaum damit zu rechnen, dass sie sich durch ein Commitment über Nacht einfach in Luft auflösen. Je älter das Muster, umso mehr können wir damit rechnen, dass es uns noch eine Weile begleitet und unser neues Commitment herausfordert. Daher besteht die Kunst eigentlich nicht im Commitment selbst, sondern eher in der Erneuerung von Commitments.
 
 === Integrität *[10 %]* [[sec_integritaet]]
 
@@ -458,6 +470,7 @@ Wir können allerdings jederzeit unsere Integrität wiederherstellen, indem wir 
 * weiter ausführen
 * anschauliche Beispiele
 ** urteilsfreies Zuhören muss mit leerem Geist in Präsenz stattfinden. Nicht mit Vergangenem hadern (ich hege einen Groll gegen meinen Gesprächspartner wegen etwas zuvor Geschehenem) oder in die Zukunft plant (schon nach einer Lösung suchen). Leerer Geist = vorurteilsfreie Haltung
+* unterstützend: Staunende Neugier
 ====
 
 Echtes Zuhören eine seltene Kunst. Gemeinhin wird stattdessen der so genannte Meinungsaustausch gepflegt, was in der Regel bedeutet, dass nach dem Gespräch beide Partner mit ihren Meinungen wieder nach Hause gehen, ohne dass sich an selbigen irgend etwas verändert hätte. Der Preis, den wir dafür bezahlen: echte Beziehungen können so nicht zustande kommen. Authentische Beziehungen bedürfen bewusster Kommunikation, deren erste Voraussetzung die Fähigkeit zum Zuhören und nicht etwa die Fähigkeit zum präzisen und prägnanten Ausdruck ist. Bewusstes Zuhören in diesem Sinne findet auf 3 Ebenen statt:
@@ -514,7 +527,7 @@ Im engeren Sinne ist unter Feedback eine wertschätzende Form der Rückmeldung g
 |ist manipulativ (Pole: Lob und Tadel)
 |===
 
-Kritik kann nützlich sein, um die eigenen Vorlieben und Abneigungen zu verdeutlichen, wenn sie auf Gegenstände und Handlungen gerichtet ist. Bei Anwendung auf Menschen ist sie ist jedoch in der Regel schädlich. »Konstruktive Kritik« wird oft als positive Form der Kritik angeführt, oft handelt es sich jedoch nur um einen verschleiernden Euphemismus, hinter dem sich manipulative Absichten verbergen.
+Kritik kann nützlich sein, um die eigenen Vorlieben und Abneigungen zu verdeutlichen, wenn sie auf Gegenstände und Handlungen gerichtet ist. Bei Anwendung auf Menschen ist sie ist jedoch in der Regel schädlich. »Konstruktive Kritik« wird oft als positive Form der Kritik angeführt, stellt sich jedoch oft als Euphemismus heraus, der manipulative Absichten verschleiern soll.
 
 .ToDo
 NOTE: Artikel Kritik/Lob/Tadel einarbeiten.
