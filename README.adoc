@@ -144,6 +144,6 @@ Geplant: PDF, epub und, wer weiß, vielleicht ja auch irgendwann einmal eine Dru
 
 == Lizenz
 
-Copyright (C) 2017 Björn Klug.
+Copyright (C) 2018 Björn Klug.
 
 Ich konnte mich bisher noch nicht ausreichend über die verschiedenen Möglichkeiten der Lizensierung von Open Books informieren und behalte mir daher vorerst alle Rechte an diesem Buch vor. Je nach Resonanz und Beteiligung stelle ich es voraussichtlich unter eine Creative Commons License.
