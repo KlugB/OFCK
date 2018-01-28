@@ -170,7 +170,7 @@ So lehrt zum Beispiel die Gewaltfreie Kommunikation sehr explizit die Prinzipien
 
 Wenn die Anwendung derartiger Methoden zur Förderung von _Co-Kreativität_ auf Hindernisse stößt oder gar ganz scheitert, dann ist die Ursache zuerst in der Verletzung der Core-Commitments zu suchen. Das _Framework für Co-Kreativität_ kann solche Probleme lösen oder deren Entstehung von vornherein vorbeugen, wenn es bereits im Vorfeld einer Unternehmung angewandt wird.
 
-NOTE: ToDo: noch nicht rund...
+NOTE: ToDo: Feinschliff
 
 === Aufbau dieses Buches
 
@@ -822,7 +822,7 @@ Was Ueshiba so aussergewöhnlich macht, ist seine Transformation von einem moder
 
 Das Außergewöhnliche an Aikido ist nun, dass es weder Sieger noch Verlierer kennt. Streng genommen müsste man es deshalb eigentlich »Nicht-Kampf-Kunst« nennen. Die Entstehung eines Kampfes steht von vornherein außer Frage, weil der Aikidoka seinen Angreifer nicht als Gegner, sondern als Verbündeten sieht. Seine Absicht ist es nicht nur, den Angreifer unverletzt zu lassen, sondern sogar ihn zu schützen. Aikido ist gewaltfreie Kommunikation auf körperlicher Ebene.
 
-Das ist ein erstaunliches Konzept, das sogar für viele Aikidoka nur schwer in den Kopf zu bekommen ist. Und doch ist es genau diese scheinbar verrückte Haltung, die Co-Kreativität erst möglich macht.
+Das ist ein erstaunliches Konzept, das sogar für viele Aikidoka nur schwer zu fassen ist. Und doch ist es genau diese scheinbar verrückte Haltung, die Co-Kreativität erst möglich macht.
 
 Da kommt also jemand und will mir Gewalt antun, und ich soll bei meiner Reaktion auch noch darauf achten, dass ich ihn nicht verletze? Geht's noch? Um zu verstehen, warum das besser ist als die Unterwerfung des Gegners, sehen wir uns einmal verschiedene Aspekte einer Aikido-Technik an.
 
@@ -861,6 +861,11 @@ Dieser leere Geist entspricht beim kommunikativen <<sec_zuhoeren,Zuhören>> eine
 
 Aikido ist Energieeffizienz in ihrer höchsten Form. Wer einmal ein Aikido-Training beobachtet, wird feststellen, dass die Angreifer ziemlich schnell außer Atem und ins Schwitzen geraten, während den Verteidigern kaum Anstrengung anzusehen ist. Dies liegt daran, dass der Aikidoka keinerlei Energie in den Machtkampf investiert und für seine Technik im Wesentlichen die Energie des Angreifers nutzt.
 
+====== Aikido in Kommunikation
+
+. _Eintreten, die Harmonie herstellen_: Höre deinem Gegenüber bewusst zu. Versuche dabei nicht nur den Inhalt zu erfassen, sondern auch den emotionalen Unterstrom und die Bedürfnisse dahinter. Akzeptiere. Wertschätze. Finde die gemeinsame Basis, sei sie auch noch so klein. Baue auf dieser Basis auf.
+. ?
+
 [NOTE]
 .Stichpunkte
 ====
@@ -869,6 +874,14 @@ Aikido ist Energieeffizienz in ihrer höchsten Form. Wer einmal ein Aikido-Train
 ** Es ist nicht besonders schwer, jemanden mit einer Aikido-Technik zu verletzen. Es ist jedoch vollkommen unmöglich, jemanden mit Aikido zu verletzen.
 * Integrität ist ein Aspekt von Ki
 * Technik vs. Aikido, »echtes« Aikido vs. Aikido-»Imitatoren«
+* Aikido ist nur _ein_ Name für ein Prinzip, das sich in vielen anderen Lehren manifestiert hat. Beispiele:
+** _Gewaltfreie Kommunikation_ (Marshall Rosenberg)
+** _The Work_ (Byron Katie)
+** _Alexander-Technik_ (F. M. Alexander)
+** _Ahimsa_ (Hinduismus, Mahatma Gandhi)
+** _Achtsamkeit, Mitgefühl_ (Buddhismus)
+** _Nächstenliebe_ (Christentum)
+** _Tango Argentino_
 ====
 
 
